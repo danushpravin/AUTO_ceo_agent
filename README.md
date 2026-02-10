@@ -6,7 +6,7 @@ It ingests structured business data, simulates a company, and behaves like a rut
 It doesn’t chat.  
 It audits, interprets, and exposes the truth about your business.
 
-> Live demo: https://your-streamlit-app-url
+> Live demo: https://auto-ceo-agent.streamlit.app/
 
 ---
 
