@@ -1,0 +1,117 @@
+{
+  "PRODUCTS": [
+    "VoltEdge Case",
+    "VoltEdge Charger",
+    "VoltEdge Power Bank"
+  ],
+  "REGIONS": [
+    "North",
+    "South",
+    "East",
+    "West"
+  ],
+  "CHANNELS": [
+    "Instagram",
+    "Google",
+    "Influencers"
+  ],
+  "UNIT_ECON": {
+    "VoltEdge Case": {
+      "cogs": 479,
+      "packaging_cost": 59,
+      "logistics_cost": 79,
+      "selling_price": 999.0
+    },
+    "VoltEdge Charger": {
+      "cogs": 863,
+      "packaging_cost": 107,
+      "logistics_cost": 143,
+      "selling_price": 1799.0
+    },
+    "VoltEdge Power Bank": {
+      "cogs": 1439,
+      "packaging_cost": 179,
+      "logistics_cost": 239,
+      "selling_price": 2999.0
+    }
+  },
+  "BASE_DAILY_DEMAND": {
+    "VoltEdge Case": 35.0,
+    "VoltEdge Charger": 22.0,
+    "VoltEdge Power Bank": 12.0
+  },
+  "REGION_W": {
+    "North": 0.2,
+    "South": 0.3,
+    "East": 0.4,
+    "West": 0.1
+  },
+  "CHANNEL_W": {
+    "Instagram": 0.5,
+    "Google": 0.3,
+    "Influencers": 0.2
+  },
+  "CHANNEL_BEHAVIOR": {
+    "Instagram": {
+      "ctr": [
+        0.01,
+        0.03
+      ],
+      "cvr": [
+        0.05,
+        0.15
+      ],
+      "cpc": [
+        0.6,
+        1.5
+      ]
+    },
+    "Google": {
+      "ctr": [
+        0.03,
+        0.06
+      ],
+      "cvr": [
+        0.12,
+        0.25
+      ],
+      "cpc": [
+        0.3,
+        0.8
+      ]
+    },
+    "Influencers": {
+      "ctr": [
+        0.005,
+        0.015
+      ],
+      "cvr": [
+        0.01,
+        0.05
+      ],
+      "cpc": [
+        1.5,
+        3.0
+      ]
+    }
+  },
+  "STARTING_STOCK": 40,
+  "PRODUCTION_RANGE": {
+    "VoltEdge Case": [
+      32,
+      39
+    ],
+    "VoltEdge Charger": [
+      20,
+      25
+    ],
+    "VoltEdge Power Bank": [
+      9,
+      11
+    ]
+  },
+  "DEMAND_NOISE": [
+    0.8,
+    1.2
+  ]
+}

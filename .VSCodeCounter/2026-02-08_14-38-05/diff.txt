@@ -1,0 +1,56 @@
+Date : 2026-02-08 14:38:05
+Directory : /home/danush/Documents/CEO_AGENT/ceo_agent
+Total : 22 files,  3301 codes, -5 comments, 9 blanks, all 3305 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| CSV      |         11 |      3,234 |          0 |          0 |      3,234 |
+| Python   |          9 |         67 |         -5 |          9 |         71 |
+| JSON     |          2 |          0 |          0 |          0 |          0 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                  | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                     |         22 |      3,301 |         -5 |          9 |      3,305 |
+| . (Files)                                                                             |          1 |         37 |          1 |         14 |         52 |
+| agent                                                                                 |          1 |          2 |          0 |         -1 |          1 |
+| data                                                                                  |         13 |      3,234 |          0 |          0 |      3,234 |
+| data/companies                                                                        |         13 |      3,234 |          0 |          0 |      3,234 |
+| data/companies/Nutrain                                                                |          3 |      4,116 |          0 |          0 |      4,116 |
+| data/companies/Nutrain                                                                |          5 |    -16,336 |          0 |         -4 |    -16,340 |
+| data/companies/VoltEdge                                                               |          5 |     15,454 |          0 |          4 |     15,458 |
+| ui                                                                                    |          7 |         28 |         -6 |         -4 |         18 |
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                              | language | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| /home/danush/Documents/CEO_AGENT/ceo_agent/agent/agent.py                             | Python   |          2 |          0 |         -1 |          1 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/app.py                                     | Python   |         37 |          1 |         14 |         52 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/Nutrain /config.json        | JSON     |       -117 |          0 |          0 |       -117 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/Nutrain /inventory.csv      | CSV      |     -1,159 |          0 |         -1 |     -1,160 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/Nutrain /marketing.csv      | CSV      |     -1,159 |          0 |         -1 |     -1,160 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/Nutrain /sales.csv          | CSV      |    -13,897 |          0 |         -1 |    -13,898 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/Nutrain /unit_economics.csv | CSV      |         -4 |          0 |         -1 |         -5 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/Nutrain/inventory.csv       | CSV      |        294 |          0 |          0 |        294 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/Nutrain/marketing.csv       | CSV      |        294 |          0 |          0 |        294 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/Nutrain/sales.csv           | CSV      |      3,528 |          0 |          0 |      3,528 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/VoltEdge/config.json        | JSON     |        117 |          0 |          0 |        117 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/VoltEdge/inventory.csv      | CSV      |      1,096 |          0 |          1 |      1,097 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/VoltEdge/marketing.csv      | CSV      |      1,096 |          0 |          1 |      1,097 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/VoltEdge/sales.csv          | CSV      |     13,141 |          0 |          1 |     13,142 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/VoltEdge/unit_economics.csv | CSV      |          4 |          0 |          1 |          5 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/ui/__init__.py                             | Python   |          0 |          0 |          1 |          1 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/ui/app.py                                  | Python   |       -304 |        -27 |        -93 |       -424 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/ui/auto_panel.py                           | Python   |         39 |          0 |         11 |         50 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/ui/config_io.py                            | Python   |         10 |          0 |          3 |         13 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/ui/create_company.py                       | Python   |        186 |         15 |         46 |        247 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/ui/dashboard.py                            | Python   |         78 |          6 |         25 |        109 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/ui/scenarios.py                            | Python   |         19 |          0 |          3 |         22 |
+| Total                                                                                 |          |      3,301 |         -5 |          9 |      3,305 |
++---------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+

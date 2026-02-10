@@ -1,0 +1,4 @@
+product,selling_price,cogs,gross_margin,packaging_cost,logistics_cost
+Vanilla Shake,180.0,86,94.0,10,14
+Chocolate Shake,170.0,81,89.0,10,13
+Banana Shake,190.0,91,99.0,11,15

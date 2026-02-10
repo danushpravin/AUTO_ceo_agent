@@ -1,0 +1,24 @@
+"filename", "language", "Python", "CSV", "JSON", "comment", "blank", "total"
+"/home/danush/Documents/CEO_AGENT/ceo_agent/agent/agent.py", "Python", 2, 0, 0, 0, -1, 1
+"/home/danush/Documents/CEO_AGENT/ceo_agent/app.py", "Python", 37, 0, 0, 1, 14, 52
+"/home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/Nutrain /config.json", "JSON", 0, 0, -117, 0, 0, -117
+"/home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/Nutrain /inventory.csv", "CSV", 0, -1159, 0, 0, -1, -1160
+"/home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/Nutrain /marketing.csv", "CSV", 0, -1159, 0, 0, -1, -1160
+"/home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/Nutrain /sales.csv", "CSV", 0, -13897, 0, 0, -1, -13898
+"/home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/Nutrain /unit_economics.csv", "CSV", 0, -4, 0, 0, -1, -5
+"/home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/Nutrain/inventory.csv", "CSV", 0, 294, 0, 0, 0, 294
+"/home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/Nutrain/marketing.csv", "CSV", 0, 294, 0, 0, 0, 294
+"/home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/Nutrain/sales.csv", "CSV", 0, 3528, 0, 0, 0, 3528
+"/home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/VoltEdge/config.json", "JSON", 0, 0, 117, 0, 0, 117
+"/home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/VoltEdge/inventory.csv", "CSV", 0, 1096, 0, 0, 1, 1097
+"/home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/VoltEdge/marketing.csv", "CSV", 0, 1096, 0, 0, 1, 1097
+"/home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/VoltEdge/sales.csv", "CSV", 0, 13141, 0, 0, 1, 13142
+"/home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/VoltEdge/unit_economics.csv", "CSV", 0, 4, 0, 0, 1, 5
+"/home/danush/Documents/CEO_AGENT/ceo_agent/ui/__init__.py", "Python", 0, 0, 0, 0, 1, 1
+"/home/danush/Documents/CEO_AGENT/ceo_agent/ui/app.py", "Python", -304, 0, 0, -27, -93, -424
+"/home/danush/Documents/CEO_AGENT/ceo_agent/ui/auto_panel.py", "Python", 39, 0, 0, 0, 11, 50
+"/home/danush/Documents/CEO_AGENT/ceo_agent/ui/config_io.py", "Python", 10, 0, 0, 0, 3, 13
+"/home/danush/Documents/CEO_AGENT/ceo_agent/ui/create_company.py", "Python", 186, 0, 0, 15, 46, 247
+"/home/danush/Documents/CEO_AGENT/ceo_agent/ui/dashboard.py", "Python", 78, 0, 0, 6, 25, 109
+"/home/danush/Documents/CEO_AGENT/ceo_agent/ui/scenarios.py", "Python", 19, 0, 0, 0, 3, 22
+"Total", "-", 67, 3234, 0, -5, 9, 3305

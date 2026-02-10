@@ -1,0 +1,12 @@
+"filename", "language", "Python", "CSV", "comment", "blank", "total"
+"/home/danush/Documents/CEO_AGENT/ceo_agent/app.py", "Python", 85, 0, 3, 14, 102
+"/home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/Nutrain/inventory.csv", "CSV", 0, 483, 0, 0, 483
+"/home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/Nutrain/marketing.csv", "CSV", 0, 483, 0, 0, 483
+"/home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/Nutrain/sales.csv", "CSV", 0, 5796, 0, 0, 5796
+"/home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/VoltEdge/inventory.csv", "CSV", 0, 693, 0, 0, 693
+"/home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/VoltEdge/marketing.csv", "CSV", 0, 693, 0, 0, 693
+"/home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/VoltEdge/sales.csv", "CSV", 0, 8316, 0, 0, 8316
+"/home/danush/Documents/CEO_AGENT/ceo_agent/ui/auto_panel.py", "Python", -17, 0, 60, -6, 37
+"/home/danush/Documents/CEO_AGENT/ceo_agent/ui/create_company.py", "Python", 7, 0, 0, 0, 7
+"/home/danush/Documents/CEO_AGENT/ceo_agent/ui/dashboard.py", "Python", 79, 0, 4, 9, 92
+"Total", "-", 154, 16464, 67, 17, 16702

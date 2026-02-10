@@ -1,0 +1,53 @@
+# =========================
+# CONFIG (WORLD RULES)
+# =========================
+
+PRODUCTS = ["Nutrain Vanilla", "Nutrain Choco Coffee", "Nutrain Banana Oats"]
+REGIONS = ["Bangalore", "Mumbai", "Delhi", "Chennai"]
+CHANNELS = ["Instagram", "Google", "Influencers"]
+
+UNIT_ECON = {
+    "Nutrain Vanilla": {"selling_price": 180},
+    "Nutrain Choco Coffee": {"selling_price": 190},
+    "Nutrain Banana Oats": {"selling_price": 170},
+}
+
+BASE_DAILY_DEMAND = {
+    "Nutrain Vanilla": 120,
+    "Nutrain Choco Coffee": 90,
+    "Nutrain Banana Oats": 60,
+}
+
+# Region demand share (must sum to 1.0)
+REGION_W = {
+    "Bangalore": 0.28,
+    "Mumbai": 0.30,
+    "Delhi": 0.22,
+    "Chennai": 0.20,
+}
+
+# Channel share (must sum to 1.0)
+CHANNEL_W = {
+    "Instagram": 0.40,
+    "Google": 0.38,
+    "Influencers": 0.22,
+}
+
+# Marketing channel behavior (for funnel + efficiency)
+CHANNEL_BEHAVIOR = {
+    "Instagram": {"ctr": (0.008, 0.018), "cvr": (0.015, 0.030), "cpc": (4.0, 8.0)},
+    "Google": {"ctr": (0.020, 0.050), "cvr": (0.030, 0.060), "cpc": (12.0, 28.0)},
+    "Influencers": {"ctr": (0.004, 0.012), "cvr": (0.010, 0.025), "cpc": (6.0, 18.0)},
+}
+
+# Inventory rules
+STARTING_STOCK = 150  # per product
+PRODUCTION_RANGE = {
+    "Nutrain Vanilla": (105, 135),
+    "Nutrain Choco Coffee": (80, 105),
+    "Nutrain Banana Oats": (55, 75),
+}
+
+# Noise range (stable)
+DEMAND_NOISE = (0.85, 1.15)
+START_DATE = None

@@ -1,0 +1,91 @@
+Date : 2026-02-08 14:38:05
+Directory : /home/danush/Documents/CEO_AGENT/ceo_agent
+Total : 48 files,  39846 codes, 396 comments, 1519 blanks, all 41761 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| CSV      |          8 |     34,790 |          0 |          8 |     34,798 |
+| Python   |         23 |      2,612 |        396 |        643 |      3,651 |
+| Markdown |         15 |      2,210 |          0 |        868 |      3,078 |
+| JSON     |          2 |        234 |          0 |          0 |        234 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                  | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                     |         48 |     39,846 |        396 |      1,519 |     41,761 |
+| . (Files)                                                                             |          2 |        181 |          1 |         68 |        250 |
+| agent                                                                                 |         13 |      1,981 |        333 |        443 |      2,757 |
+| agent (Files)                                                                         |          4 |      1,162 |        184 |        251 |      1,597 |
+| agent/analytics                                                                       |          6 |        185 |         48 |         66 |        299 |
+| agent/core                                                                            |          1 |         59 |          6 |         17 |         82 |
+| agent/decisions                                                                       |          1 |        141 |         12 |         17 |        170 |
+| agent/reasoning                                                                       |          1 |        434 |         83 |         92 |        609 |
+| data                                                                                  |         10 |     35,024 |          0 |          8 |     35,032 |
+| data/companies                                                                        |         10 |     35,024 |          0 |          8 |     35,032 |
+| data/companies/Nutrain                                                                |          5 |     19,570 |          0 |          4 |     19,574 |
+| data/companies/VoltEdge                                                               |          5 |     15,454 |          0 |          4 |     15,458 |
+| docs                                                                                  |         14 |      2,066 |          0 |        814 |      2,880 |
+| docs (Files)                                                                          |          6 |        546 |          0 |        256 |        802 |
+| docs/agent                                                                            |          8 |      1,520 |          0 |        558 |      2,078 |
+| ui                                                                                    |          6 |        332 |         21 |         89 |        442 |
+| world                                                                                 |          3 |        262 |         41 |         97 |        400 |
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                              | language | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| /home/danush/Documents/CEO_AGENT/ceo_agent/README.md                                  | Markdown |        144 |          0 |         54 |        198 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/agent/__init__.py                          | Python   |          0 |          0 |          1 |          1 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/agent/agent.py                             | Python   |        267 |          9 |         25 |        301 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/agent/analytics.py                         | Python   |        795 |        149 |        181 |      1,125 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/agent/analytics/__init__.py                | Python   |          0 |          0 |          1 |          1 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/agent/analytics/executive.py               | Python   |         46 |         15 |         15 |         76 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/agent/analytics/inventory.py               | Python   |         19 |          5 |          6 |         30 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/agent/analytics/marketing.py               | Python   |         16 |          8 |          7 |         31 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/agent/analytics/profit.py                  | Python   |         65 |         17 |         22 |        104 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/agent/analytics/sales.py                   | Python   |         39 |          3 |         15 |         57 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/agent/core/context.py                      | Python   |         59 |          6 |         17 |         82 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/agent/decisions/recommend.py               | Python   |        141 |         12 |         17 |        170 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/agent/reasoning/interpret.py               | Python   |        434 |         83 |         92 |        609 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/agent/tools.py                             | Python   |        100 |         26 |         44 |        170 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/app.py                                     | Python   |         37 |          1 |         14 |         52 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/Nutrain/config.json         | JSON     |        117 |          0 |          0 |        117 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/Nutrain/inventory.csv       | CSV      |      1,390 |          0 |          1 |      1,391 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/Nutrain/marketing.csv       | CSV      |      1,390 |          0 |          1 |      1,391 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/Nutrain/sales.csv           | CSV      |     16,669 |          0 |          1 |     16,670 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/Nutrain/unit_economics.csv  | CSV      |          4 |          0 |          1 |          5 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/VoltEdge/config.json        | JSON     |        117 |          0 |          0 |        117 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/VoltEdge/inventory.csv      | CSV      |      1,096 |          0 |          1 |      1,097 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/VoltEdge/marketing.csv      | CSV      |      1,096 |          0 |          1 |      1,097 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/VoltEdge/sales.csv          | CSV      |     13,141 |          0 |          1 |     13,142 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/data/companies/VoltEdge/unit_economics.csv | CSV      |          4 |          0 |          1 |          5 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/docs/AUTO_v1_system_notes.md               | Markdown |         28 |          0 |          9 |         37 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/docs/agent/agent.md                        | Markdown |        115 |          0 |         39 |        154 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/docs/agent/analytics.md                    | Markdown |        445 |          0 |        169 |        614 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/docs/agent/core.md                         | Markdown |         46 |          0 |         13 |         59 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/docs/agent/decisions.md                    | Markdown |         86 |          0 |         45 |        131 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/docs/agent/overview.md                     | Markdown |          0 |          0 |          1 |          1 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/docs/agent/reasoning.md                    | Markdown |        763 |          0 |        272 |      1,035 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/docs/agent/tools.md                        | Markdown |         65 |          0 |         18 |         83 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/docs/agent/ui.md                           | Markdown |          0 |          0 |          1 |          1 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/docs/case_studies.md                       | Markdown |        130 |          0 |         54 |        184 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/docs/case_studies_goal.md                  | Markdown |         83 |          0 |         66 |        149 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/docs/profit_functions.md                   | Markdown |        191 |          0 |         94 |        285 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/docs/world_design_rules.md                 | Markdown |         43 |          0 |         20 |         63 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/docs/world_generation_flow.md              | Markdown |         71 |          0 |         13 |         84 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/ui/__init__.py                             | Python   |          0 |          0 |          1 |          1 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/ui/auto_panel.py                           | Python   |         39 |          0 |         11 |         50 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/ui/config_io.py                            | Python   |         10 |          0 |          3 |         13 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/ui/create_company.py                       | Python   |        186 |         15 |         46 |        247 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/ui/dashboard.py                            | Python   |         78 |          6 |         25 |        109 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/ui/scenarios.py                            | Python   |         19 |          0 |          3 |         22 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/world/__init__.py                          | Python   |          0 |          0 |          1 |          1 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/world/generate_world.py                    | Python   |        216 |         30 |         76 |        322 |
+| /home/danush/Documents/CEO_AGENT/ceo_agent/world/world_factory.py                     | Python   |         46 |         11 |         20 |         77 |
+| Total                                                                                 |          |     39,846 |        396 |      1,519 |     41,761 |
++---------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
