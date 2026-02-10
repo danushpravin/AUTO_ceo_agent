@@ -1,197 +1,215 @@
-┌──────────────────────────────┐
-│        YOU (CEO / User)      │
-│  (Streamlit Chat UI - app.py)│
-└───────────────┬──────────────┘
-                │
-                │  User Question
-                ▼
-┌──────────────────────────────┐
-│        agent.py (BRAIN)      │
-│  - System Prompt (AI COS)   │
-│  - Chat History / Memory   │
-│  - Tool Selection Logic    │
-└───────────────┬──────────────┘
-                │
-                │  1️⃣ First LLM Call
-                │  → "Which tool(s) do I need?"
-                ▼
-┌──────────────────────────────┐
-│        OPENAI LLM            │
-│  - Reads System Prompt      │
-│  - Reads Your Question      │
-│  - Sees Available Tools     │
-│  - Decides Tool Calls       │
-└───────────────┬──────────────┘
-                │
-                │  Tool Call(s)
-                │  e.g.:
-                │  → tool_roas_by_channel
-                │  → tool_churn_rate
-                ▼
-┌──────────────────────────────┐
-│     execute_tool() (agent.py)│
-│  - Dispatches tool name     │
-│  - Calls tools.py function │
-└───────────────┬──────────────┘
-                │
-                ▼
-┌──────────────────────────────┐
-│        tools.py (ADAPTER)   │
-│  - Calls analytics.py      │
-│  - Converts DF → JSON      │
-│  - Returns dict / list     │
-└───────────────┬──────────────┘
-                │
-                ▼
-┌──────────────────────────────┐
-│     analytics.py (BI CORE)  │
-│  - Opens CSV with Pandas   │
-│  - Computes real metrics  │
-│  - Returns DataFrames     │
-└───────────────┬──────────────┘
-                │
-                ▼
-┌──────────────────────────────┐
-│        data/*.csv           │
-│  - sales.csv                │
-│  - customers.csv           │
-│  - marketing.csv           │
-└──────────────────────────────┘
+# AUTO — AI Chief Executive Officer
 
-🔁 FULL RUNTIME FLOW (STEP-BY-STEP)
-✅ STEP 1 — You Type a Question (UI Layer)
+**AUTO is an AI-powered executive operating system and business simulation engine.**  
+It ingests structured business data, simulates a company, and behaves like a ruthless CEO.
 
-From Streamlit (app.py):
+It doesn’t chat.  
+It audits, interprets, and exposes the truth about your business.
 
-response = run_ceo_agent(st.session_state.messages)
+> Live demo: https://your-streamlit-app-url
 
+---
 
-Example question:
+## What problem does this solve?
 
-"Where am I losing money?"
+Most business dashboards:
+- show numbers  
+- but don’t explain what they mean  
+- and never tell you what’s actually risky  
 
-This becomes:
+AUTO answers the real questions:
 
-conversation = [
-  {"role": "user", "content": "Where am I losing money?"}
-]
+- Is growth real or fake?
+- Are we burning cash inefficiently?
+- Which products are secretly dragging us down?
+- Where is concentration risk hiding?
+- What should we actually do next?
 
-✅ STEP 2 — agent.py Adds the CEO Identity (Brain Setup)
-messages = [
-  {"role": "system", "content": SYSTEM_PROMPT},
-  {"role": "user", "content": "Where am I losing money?"}
-]
+AUTO treats data like a **decision engine**, not a visualization.
+
+---
+
+## Core capabilities
+
+AUTO automatically:
+
+- Analyzes revenue, profit, CAC, inventory, marketing
+- Detects fake or unsustainable growth
+- Surfaces concentration and dependency risks
+- Flags stockout and inventory fragility
+- Interprets business health using internal signals
+- Generates deterministic executive recommendations
+
+All outputs are:
+
+- fully data-driven  
+- tool-based  
+- zero hallucinations  
+
+---
+
+## System architecture
+
+AUTO is deliberately **not** coupled to the business simulator.
+
+The system is split into two independent parts:
+
+1. **World Engine (Business Simulator)**  
+   Generates and mutates the business reality:
+   - products, regions, channels
+   - sales, inventory, costs
+   - marketing spend and outcomes
+
+2. **AUTO (Executive Brain)**  
+   Observes the world **read-only** and:
+   - runs analytics on generated data
+   - interprets business health
+   - detects risks and fragility
+   - generates executive recommendations
+
+### Data flow
+
+World Engine (Simulator)  
+→ CSV / structured state  
+→ Analytics Layer  
+→ Interpretation Tools  
+→ Recommendation Engine  
+→ AUTO (LLM)  
+→ Streamlit UI
 
 
-This tells the LLM:
 
-You are the AI Chief of Staff
+---
 
-You must use real tools
+## Business Simulator (World Engine)
 
-You must not hallucinate
+The simulator is completely independent from AUTO.
+AUTO cannot modify the world, only observe it.
 
-You must give strategic advice
+AUTO is not just reading static CSVs.
 
-✅ STEP 3 — FIRST LLM CALL: “Which tools should I use?”
-response = client.chat.completions.create(
-    model=MODEL,
-    messages=messages,
-    tools=OPENAI_TOOLS,
-    tool_choice="auto",
-)
+It contains a **world simulation layer** that:
 
+- Represents a company as a dynamic system
+- Models:
+  - products
+  - regions
+  - channels
+  - inventory
+  - costs
+  - pricing
+  - marketing spend
+- Allows scenario generation and what-if analysis
+- Acts as a controllable sandbox for AI reasoning
 
-The LLM now mentally does:
+This makes AUTO closer to:
+> a business operating system  
+not a reporting tool.
 
-“To find money leaks, I need:
+---
 
-Churn rate
+## Analytics Layer
 
-ROAS by channel”
+Pure deterministic computation:
 
-So it returns:
+- revenue by product / region / channel  
+- profit and true net profit  
+- CAC and marketing efficiency  
+- inventory risk vs demand  
+- growth trends over time  
 
-tool_calls = [
-  { name: "tool_churn_rate", arguments: "{}" },
-  { name: "tool_roas_by_channel", arguments: "{}" }
-]
+No AI involved here.  
+Just hard math and structured data.
 
-✅ STEP 4 — Python Executes Each Tool
+---
 
-Inside this block:
+## Interpretation Layer
 
-result = execute_tool(func, args)
+The AI **cannot access raw data directly**.
 
+It must call internal tools like:
 
-This calls:
+- `tool_interpret_growth_quality`
+- `tool_marketing_efficiency`
+- `tool_inventory_health_vs_revenue`
+- `tool_product_portfolio_health`
+- `tool_channel_dependency_risk`
 
-agent.py → tools.py → analytics.py → CSV file
+This forces:
+- grounded reasoning  
+- traceable logic  
+- zero fabricated numbers  
 
+The AI literally cannot lie even if it wants to.
 
-Example:
+---
 
-tool_roas_by_channel
-→ roas_by_channel(_marketing_df)
-→ computes ROAS
-→ returns DataFrame
-→ converted to JSON
+## Recommendation Engine
 
-✅ STEP 5 — Tool Results Are Injected Back into Chat
+Recommendations are **not generated freely**.
 
-This is what the LLM now sees:
+They must:
+- be derived from interpretation signals
+- use a dedicated recommendation tool
+- be traceable to explicit business risks
 
-{
-  "role": "tool",
-  "name": "tool_roas_by_channel",
-  "content": [
-    {"channel": "Instagram", "ROAS": 0.94},
-    {"channel": "Google", "ROAS": 0.56},
-    {"channel": "Influencers", "ROAS": 0.43}
-  ]
-}
+The AI is structurally prevented from:
+- giving generic advice
+- skipping analysis
+- making unsupported claims
 
+This is closer to:
+> a decision system than a chatbot.
 
-and
+---
 
-{
-  "role": "tool",
-  "name": "tool_churn_rate",
-  "content": {"churn_rate": 0.246}
-}
+## Design philosophy
 
-✅ STEP 6 — SECOND LLM CALL: “Interpret the Numbers”
+AUTO follows strict principles:
 
-Now the LLM sees:
+- No guessing, no estimates, no hallucinations  
+- All numbers must come from internal tools  
+- Currency is always explicit (₹)  
+- Risks are reported before positive trends  
+- Recommendations must be traceable to signals  
 
-Original question
+It behaves like:
 
-Its own tool calls
+> a brutal operator, not a friendly assistant.
 
-REAL computed data
+---
 
-Then it reasons:
+## Tech stack
 
-Churn is high → customer loss
+- Python 3.10  
+- Streamlit (UI + deployment)  
+- Pandas (analytics)   
+- OpenAI API (reasoning engine)  
 
-Google + Influencers ROAS < 1 → losing money
+---
 
-And replies:
+## Example use cases
 
-“You are losing money due to high churn and inefficient Google & Influencer ads…”
+- Founder reviewing business health  
+- Operator checking marketing efficiency  
+- Investor auditing portfolio company  
+- Product manager exploring AI decision systems  
+- Anyone building AI-native internal tools  
 
-✅ This is pure CEO reasoning on real data.
+---
 
-✅ STEP 7 — Final Answer Goes Back to UI
+## Why this project exists
 
-Streamlit displays the final response in chat bubbles.
+This project was built to explore:
 
-🧩 WHO DOES WHAT (CLEAR SEPARATION OF RESPONSIBILITY)
-File	Role
-data/*.csv	Raw business truth
-analytics.py	Math & business KPIs
-tools.py	Converts KPIs → JSON
-agent.py	Decides what to compute & explains it
-app.py	Chat interface
-OpenAI LLM	Strategic reasoning & communication
+- AI as a **system**, not a feature  
+- tool-driven reasoning instead of freeform chat  
+- deterministic analytics with probabilistic models  
+- business simulation + AI cognition  
+- product thinking + engineering together  
+
+AUTO is an experiment in:
+> what an AI-first company OS could look like.
+
+---
 
