@@ -66,6 +66,14 @@ The system is split into two independent parts:
    - interprets business health
    - detects risks and fragility
    - generates executive recommendations
+  
+### Screenshots
+#### Dashboard and Executive Brief
+<img width="1874" height="915" alt="Screenshot 2026-04-13 130103" src="https://github.com/user-attachments/assets/03cc55d1-6862-4068-9deb-b1fb543d513a" />
+
+#### Agent Recommendations in Action
+<img width="1859" height="906" alt="Screenshot 2026-04-13 130140" src="https://github.com/user-attachments/assets/2d332837-5ad3-4822-bb9e-435a19d8a159" />
+
 
 ### Data flow
 
