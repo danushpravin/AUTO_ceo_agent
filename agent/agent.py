@@ -1,7 +1,8 @@
 import json
 from typing import Dict, Any, List
 from openai import OpenAI
-
+from agent.rag.retriever import KnowledgeRetriever
+retriever = KnowledgeRetriever()
 from . import tools
 from .tools import CTX
 # ---------------- CONFIG ----------------
@@ -92,6 +93,14 @@ OPENAI_TOOLS = [
         "function": {
             "name": "tool_revenue_by_month",
             "description": "Monthly revenue trend.",
+            "parameters": {"type": "object", "properties": {}},
+        },
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "tool_revenue_by_month_by_product",
+            "description": "Monthly revenue broken down by product. Use this to identify seasonal patterns, growth trends, and peak months per product.",
             "parameters": {"type": "object", "properties": {}},
         },
     },
@@ -235,12 +244,30 @@ AUTONOMY:
    3) incorporate this context into your summary and recommendations.
 - Always summarize first the critical risks, then report positive signals. Positive trends **cannot override or hide** ignored material risks.
 
-
+- The business world you observe has demand patterns shaped by seasonality, 
+  product lifecycle trends, and calendar events (festivals, gifting seasons, 
+  promotional periods). When interpreting revenue variance across months or 
+  weeks, always consider whether the pattern is consistent with expected 
+  seasonal behaviour before drawing operational conclusions.
+- A revenue spike does not confirm marketing improvement if it coincides with 
+  a known high-demand period. A revenue decline does not confirm a crisis if 
+  it follows a major demand event or occurs in a seasonally low month.
+- Use tool_revenue_by_month to identify seasonal patterns in the data before 
+  interpreting short-term performance. Never attribute seasonal fluctuation 
+  to operational causes without evidence from tool outputs.
+- Operational failures (stockouts, channel losses) during peak demand periods 
+  must be reported as MORE severe, not less — the business lost revenue it 
+  had market conditions to capture.
 
 - When asked for status, performance, or health, you report:
   • What changed
   • Why it changed (if data supports it)
   • What risk it creates
+
+- When asked to explain WHY a metric performed a certain way in a specific historical period, 
+  only cite signals that are directly available from tool outputs.
+  Never infer causes from calendar patterns, assumed seasonality, or external knowledge.
+  If the causal data is not available from tools, explicitly state that and stop.
 
 You are not an assistant.
 You are the company’s executive brain.
@@ -253,6 +280,27 @@ def run_ceo_agent(conversation: List[Dict[str, str]], company_id: str):
     from agent.tools import init_company
     init_company(company_id)
     messages = [{"role": "system", "content": SYSTEM_PROMPT}] + conversation
+
+    # -------- RAG KNOWLEDGE CONTEXT --------
+
+    user_query = conversation[-1]["content"] if conversation else ""
+    knowledge_context = retriever.retrieve(user_query)
+
+    messages.insert(
+        1,
+        {
+            "role": "system",
+            "content": f"""
+    Relevant Business Knowledge (reference only):
+
+    {knowledge_context}
+
+    Use this knowledge ONLY to interpret signals from internal tools.
+    Never treat it as factual company data.
+    All numbers must still come from tools.
+    """
+        }
+    )
     tool_trace = []
     while True:
         response = client.chat.completions.create(

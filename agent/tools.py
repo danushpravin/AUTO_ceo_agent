@@ -8,6 +8,7 @@ from agent.analytics.sales import (
     sales_by_region,
     sales_by_channel,
     revenue_by_month,
+    revenue_by_month_by_product,
     top_products,
     top_regions,
 )
@@ -88,6 +89,9 @@ def tool_sales_by_channel():
 def tool_revenue_by_month():
     return revenue_by_month(CTX).to_dict("records")
 
+def tool_revenue_by_month_by_product():
+    return revenue_by_month_by_product(CTX).to_dict("records")
+
 def tool_profit_by_product():
     return profit_by_product(CTX).to_dict("records")
 
@@ -141,29 +145,34 @@ def tool_channel_dependency_risk():
 
 def tool_generate_recommendations():
     """
-    Central executive recommendation primitive.
-    Aggregates all interpretation flags + growth signal.
+    Assembles a structured, prioritised recommendation context
+    from all interpretation flags and growth signal.
+ 
+    The LLM uses this payload + RAG knowledge to generate
+    specific, traceable, context-sensitive recommendations.
+    Does NOT return pre-written recommendation strings.
     """
-
+ 
     flags = []
-
-    # Collect flags from all interpretation primitives
+ 
     me = marketing_efficiency(CTX)
     pp = product_portfolio_health(CTX)
     inv = inventory_health_vs_revenue(CTX)
     ch = channel_dependency_risk(CTX)
-
+ 
     for block in [me, pp, inv, ch]:
-        flags.extend(block.get("flags", []))
-
-    # Growth quality is signal-based, not flag-based
+        if block:
+            flags.extend(block.get("flags", []))
+ 
     growth_signal = interpret_growth_quality(
         revenue_recent_performance(CTX, n=7),
         profit_by_product(CTX)
     )
-
-    return generate_recommendations(
+ 
+    payload = generate_recommendations(
         flags=flags,
         growth_signal=growth_signal
     )
+ 
+    return payload
 

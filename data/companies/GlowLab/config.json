@@ -1,0 +1,257 @@
+{
+  "PRODUCTS": [
+    "Vitamin C Serum",
+    "Hydra Cream",
+    "Eye Repair Serum"
+  ],
+  "REGIONS": [
+    "North",
+    "South",
+    "East",
+    "West"
+  ],
+  "CHANNELS": [
+    "Instagram",
+    "Google",
+    "Influencers"
+  ],
+  "UNIT_ECON": {
+    "Vitamin C Serum": {
+      "cogs": 270,
+      "packaging_cost": 54,
+      "logistics_cost": 72,
+      "selling_price": 899.0
+    },
+    "Hydra Cream": {
+      "cogs": 180,
+      "packaging_cost": 36,
+      "logistics_cost": 48,
+      "selling_price": 599.0
+    },
+    "Eye Repair Serum": {
+      "cogs": 390,
+      "packaging_cost": 78,
+      "logistics_cost": 104,
+      "selling_price": 1299.0
+    }
+  },
+  "BASE_DAILY_DEMAND": {
+    "Vitamin C Serum": 45.0,
+    "Hydra Cream": 60.0,
+    "Eye Repair Serum": 20.0
+  },
+  "REGION_W": {
+    "North": 0.25,
+    "South": 0.3,
+    "East": 0.3,
+    "West": 0.15
+  },
+  "CHANNEL_W": {
+    "Instagram": 0.5,
+    "Google": 0.3,
+    "Influencers": 0.2
+  },
+  "CHANNEL_BEHAVIOR": {
+    "Instagram": {
+      "ctr": [
+        0.03,
+        0.06
+      ],
+      "cvr": [
+        0.1,
+        0.2
+      ],
+      "cpc": [
+        0.8,
+        1.8
+      ],
+      "spend_inefficiency": [
+        0.18,
+        0.28
+      ]
+    },
+    "Google": {
+      "ctr": [
+        0.02,
+        0.05
+      ],
+      "cvr": [
+        0.06,
+        0.14
+      ],
+      "cpc": [
+        1.2,
+        2.5
+      ],
+      "spend_inefficiency": [
+        0.25,
+        0.4
+      ]
+    },
+    "Influencers": {
+      "ctr": [
+        0.005,
+        0.015
+      ],
+      "cvr": [
+        0.01,
+        0.04
+      ],
+      "cpc": [
+        3.5,
+        7.0
+      ],
+      "spend_inefficiency": [
+        0.45,
+        0.75
+      ]
+    }
+  },
+  "STARTING_STOCK": 80,
+  "PRODUCTION_RANGE": {
+    "Vitamin C Serum": [
+      38,
+      46
+    ],
+    "Hydra Cream": [
+      46,
+      56
+    ],
+    "Eye Repair Serum": [
+      16,
+      20
+    ]
+  },
+  "DEMAND_NOISE": [
+    0.8,
+    1.2
+  ],
+  "DEMAND_PROFILE": {
+    "Vitamin C Serum": {
+      "seasonality": [
+        1.0,
+        0.9,
+        1.1,
+        1.2,
+        1.3,
+        1.1,
+        0.8,
+        0.7,
+        0.9,
+        1.0,
+        1.2,
+        1.3
+      ],
+      "trend": {
+        "type": "growth",
+        "start": 0.7,
+        "peak_month": 5,
+        "end": 1.1
+      },
+      "events": [
+        {
+          "name": "Diwali",
+          "date": "10-24",
+          "duration_days": 14,
+          "multiplier": 1.8
+        },
+        {
+          "name": "New Year",
+          "date": "01-01",
+          "duration_days": 7,
+          "multiplier": 1.5
+        },
+        {
+          "name": "Summer Skincare Awareness",
+          "date": "04-15",
+          "duration_days": 10,
+          "multiplier": 1.4
+        }
+      ]
+    },
+    "Hydra Cream": {
+      "seasonality": [
+        1.1,
+        1.0,
+        1.0,
+        0.9,
+        0.8,
+        0.7,
+        0.6,
+        0.6,
+        0.7,
+        0.9,
+        1.0,
+        1.1
+      ],
+      "trend": {
+        "type": "stable",
+        "start": 1.0,
+        "peak_month": 1,
+        "end": 1.0
+      },
+      "events": [
+        {
+          "name": "Winter Moisturizing Campaign",
+          "date": "12-01",
+          "duration_days": 30,
+          "multiplier": 2.0
+        },
+        {
+          "name": "Diwali",
+          "date": "10-24",
+          "duration_days": 14,
+          "multiplier": 1.3
+        },
+        {
+          "name": "Valentine's Day",
+          "date": "02-14",
+          "duration_days": 7,
+          "multiplier": 1.2
+        }
+      ]
+    },
+    "Eye Repair Serum": {
+      "seasonality": [
+        0.9,
+        1.0,
+        1.1,
+        1.1,
+        1.0,
+        0.9,
+        0.8,
+        0.8,
+        0.9,
+        1.0,
+        1.1,
+        1.2
+      ],
+      "trend": {
+        "type": "growth",
+        "start": 0.8,
+        "peak_month": 12,
+        "end": 1.2
+      },
+      "events": [
+        {
+          "name": "Diwali",
+          "date": "10-24",
+          "duration_days": 14,
+          "multiplier": 1.6
+        },
+        {
+          "name": "Raksha Bandhan",
+          "date": "08-19",
+          "duration_days": 7,
+          "multiplier": 1.3
+        },
+        {
+          "name": "New Year",
+          "date": "01-01",
+          "duration_days": 7,
+          "multiplier": 1.4
+        }
+      ]
+    }
+  }
+}

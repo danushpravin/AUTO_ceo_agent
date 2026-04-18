@@ -13,6 +13,15 @@ def revenue_by_month(ctx: DataContext):
           .sum()
     )
 
+def revenue_by_month_by_product(ctx: DataContext):
+    df = ctx.sales.copy()
+    df["month"] = df["date"].dt.to_period("M").astype(str)
+    return (
+        df.groupby(["month", "product"], as_index=False)["revenue"]
+        .sum()
+        .sort_values(["product", "month"])
+    )
+
 
 def sales_by_region(ctx: DataContext):
     return (
@@ -51,6 +60,8 @@ def top_products(ctx: DataContext, n=3):
         .sort_values("revenue", ascending=False)
         .head(n)
     )
+
+
 
 
 

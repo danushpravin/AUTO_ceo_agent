@@ -64,7 +64,8 @@
       "cpc": [
         0.6,
         1.5
-      ]
+      ],
+      "spend_inefficiency": [0.18, 0.28]
     },
     "Google": {
       "ctr": [
@@ -78,7 +79,8 @@
       "cpc": [
         1.5,
         3.0
-      ]
+      ],
+      "spend_inefficiency": [0.30, 0.55]
     },
     "Influencers": {
       "ctr": [
@@ -92,7 +94,8 @@
       "cpc": [
         0.3,
         0.8
-      ]
+      ],
+      "spend_inefficiency": [0.28, 0.60]
     }
   },
   "STARTING_STOCK": 100,

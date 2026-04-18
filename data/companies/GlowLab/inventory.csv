@@ -1,0 +1,1138 @@
+date,product,opening_stock,units_produced,units_dispatched,closing_stock,lost_demand,stockout_flag
+2025-01-01,Vitamin C Serum,80,44,42,82,0,No
+2025-01-01,Hydra Cream,80,55,77,58,0,No
+2025-01-01,Eye Repair Serum,80,18,24,74,0,No
+2025-01-02,Vitamin C Serum,82,46,47,81,0,No
+2025-01-02,Hydra Cream,58,55,77,36,0,No
+2025-01-02,Eye Repair Serum,74,18,21,71,0,No
+2025-01-03,Vitamin C Serum,81,40,55,66,0,No
+2025-01-03,Hydra Cream,36,48,72,12,0,No
+2025-01-03,Eye Repair Serum,71,7,23,55,0,No
+2025-01-04,Vitamin C Serum,66,38,42,62,0,No
+2025-01-04,Hydra Cream,12,49,61,0,16,Yes
+2025-01-04,Eye Repair Serum,55,17,20,52,0,No
+2025-01-05,Vitamin C Serum,62,21,41,42,0,No
+2025-01-05,Hydra Cream,0,47,47,0,24,Yes
+2025-01-05,Eye Repair Serum,52,16,19,49,0,No
+2025-01-06,Vitamin C Serum,42,38,56,24,0,No
+2025-01-06,Hydra Cream,0,50,50,0,27,Yes
+2025-01-06,Eye Repair Serum,49,18,20,47,0,No
+2025-01-07,Vitamin C Serum,24,45,50,19,0,No
+2025-01-07,Hydra Cream,0,52,52,0,4,Yes
+2025-01-07,Eye Repair Serum,47,18,23,42,0,No
+2025-01-08,Vitamin C Serum,19,45,37,27,0,No
+2025-01-08,Hydra Cream,0,31,31,0,43,Yes
+2025-01-08,Eye Repair Serum,42,20,17,45,0,No
+2025-01-09,Vitamin C Serum,27,41,35,33,0,No
+2025-01-09,Hydra Cream,0,47,47,0,7,Yes
+2025-01-09,Eye Repair Serum,45,17,15,47,0,No
+2025-01-10,Vitamin C Serum,33,46,26,53,0,No
+2025-01-10,Hydra Cream,0,49,49,0,19,Yes
+2025-01-10,Eye Repair Serum,47,20,15,52,0,No
+2025-01-11,Vitamin C Serum,53,44,34,63,0,No
+2025-01-11,Hydra Cream,0,53,53,0,3,Yes
+2025-01-11,Eye Repair Serum,52,17,13,56,0,No
+2025-01-12,Vitamin C Serum,63,41,26,78,0,No
+2025-01-12,Hydra Cream,0,34,34,0,19,Yes
+2025-01-12,Eye Repair Serum,56,19,15,60,0,No
+2025-01-13,Vitamin C Serum,78,43,31,90,0,No
+2025-01-13,Hydra Cream,0,55,55,0,14,Yes
+2025-01-13,Eye Repair Serum,60,19,15,64,0,No
+2025-01-14,Vitamin C Serum,90,40,32,98,0,No
+2025-01-14,Hydra Cream,0,53,53,0,22,Yes
+2025-01-14,Eye Repair Serum,64,18,14,68,0,No
+2025-01-15,Vitamin C Serum,98,44,26,116,0,No
+2025-01-15,Hydra Cream,0,50,50,0,20,Yes
+2025-01-15,Eye Repair Serum,68,19,17,70,0,No
+2025-01-16,Vitamin C Serum,116,40,29,127,0,No
+2025-01-16,Hydra Cream,0,53,53,0,5,Yes
+2025-01-16,Eye Repair Serum,70,17,13,74,0,No
+2025-01-17,Vitamin C Serum,127,43,29,141,0,No
+2025-01-17,Hydra Cream,0,56,56,0,0,No
+2025-01-17,Eye Repair Serum,74,17,15,76,0,No
+2025-01-18,Vitamin C Serum,141,43,35,149,0,No
+2025-01-18,Hydra Cream,0,53,53,0,11,Yes
+2025-01-18,Eye Repair Serum,76,8,12,72,0,No
+2025-01-19,Vitamin C Serum,149,40,37,152,0,No
+2025-01-19,Hydra Cream,0,29,29,0,45,Yes
+2025-01-19,Eye Repair Serum,72,20,15,77,0,No
+2025-01-20,Vitamin C Serum,152,40,37,155,0,No
+2025-01-20,Hydra Cream,0,49,49,0,29,Yes
+2025-01-20,Eye Repair Serum,77,20,16,81,0,No
+2025-01-21,Vitamin C Serum,155,40,37,158,0,No
+2025-01-21,Hydra Cream,0,50,50,0,9,Yes
+2025-01-21,Eye Repair Serum,81,19,13,87,0,No
+2025-01-22,Vitamin C Serum,158,41,33,166,0,No
+2025-01-22,Hydra Cream,0,55,55,0,12,Yes
+2025-01-22,Eye Repair Serum,87,20,13,94,0,No
+2025-01-23,Vitamin C Serum,166,45,26,185,0,No
+2025-01-23,Hydra Cream,0,53,53,0,8,Yes
+2025-01-23,Eye Repair Serum,94,17,13,98,0,No
+2025-01-24,Vitamin C Serum,185,45,27,203,0,No
+2025-01-24,Hydra Cream,0,54,53,1,0,No
+2025-01-24,Eye Repair Serum,98,18,12,104,0,No
+2025-01-25,Vitamin C Serum,203,45,30,218,0,No
+2025-01-25,Hydra Cream,1,35,36,0,18,Yes
+2025-01-25,Eye Repair Serum,104,19,16,107,0,No
+2025-01-26,Vitamin C Serum,218,43,38,223,0,No
+2025-01-26,Hydra Cream,0,46,46,0,27,Yes
+2025-01-26,Eye Repair Serum,107,19,13,113,0,No
+2025-01-27,Vitamin C Serum,223,44,29,238,0,No
+2025-01-27,Hydra Cream,0,56,56,0,19,Yes
+2025-01-27,Eye Repair Serum,113,20,16,117,0,No
+2025-01-28,Vitamin C Serum,238,40,38,240,0,No
+2025-01-28,Hydra Cream,0,51,51,0,28,Yes
+2025-01-28,Eye Repair Serum,117,20,12,125,0,No
+2025-01-29,Vitamin C Serum,240,42,33,249,0,No
+2025-01-29,Hydra Cream,0,55,55,0,21,Yes
+2025-01-29,Eye Repair Serum,125,16,12,129,0,No
+2025-01-30,Vitamin C Serum,249,38,36,251,0,No
+2025-01-30,Hydra Cream,0,46,46,0,22,Yes
+2025-01-30,Eye Repair Serum,129,19,15,133,0,No
+2025-01-31,Vitamin C Serum,251,40,26,265,0,No
+2025-01-31,Hydra Cream,0,51,51,0,23,Yes
+2025-01-31,Eye Repair Serum,133,17,14,136,0,No
+2025-02-01,Vitamin C Serum,265,44,32,277,0,No
+2025-02-01,Hydra Cream,0,56,56,0,10,Yes
+2025-02-01,Eye Repair Serum,136,20,18,138,0,No
+2025-02-02,Vitamin C Serum,277,46,28,295,0,No
+2025-02-02,Hydra Cream,0,53,53,0,19,Yes
+2025-02-02,Eye Repair Serum,138,20,17,141,0,No
+2025-02-03,Vitamin C Serum,295,43,32,306,0,No
+2025-02-03,Hydra Cream,0,51,51,0,2,Yes
+2025-02-03,Eye Repair Serum,141,19,17,143,0,No
+2025-02-04,Vitamin C Serum,306,44,29,321,0,No
+2025-02-04,Hydra Cream,0,55,55,0,3,Yes
+2025-02-04,Eye Repair Serum,143,19,14,148,0,No
+2025-02-05,Vitamin C Serum,321,41,28,334,0,No
+2025-02-05,Hydra Cream,0,54,54,0,17,Yes
+2025-02-05,Eye Repair Serum,148,18,18,148,0,No
+2025-02-06,Vitamin C Serum,334,38,28,344,0,No
+2025-02-06,Hydra Cream,0,46,46,0,8,Yes
+2025-02-06,Eye Repair Serum,148,20,19,149,0,No
+2025-02-07,Vitamin C Serum,344,44,37,351,0,No
+2025-02-07,Hydra Cream,0,55,55,0,10,Yes
+2025-02-07,Eye Repair Serum,149,19,14,154,0,No
+2025-02-08,Vitamin C Serum,351,17,26,342,0,No
+2025-02-08,Hydra Cream,0,54,54,0,8,Yes
+2025-02-08,Eye Repair Serum,154,18,18,154,0,No
+2025-02-09,Vitamin C Serum,342,39,34,347,0,No
+2025-02-09,Hydra Cream,0,52,52,0,14,Yes
+2025-02-09,Eye Repair Serum,154,19,17,156,0,No
+2025-02-10,Vitamin C Serum,347,43,26,364,0,No
+2025-02-10,Hydra Cream,0,53,53,0,9,Yes
+2025-02-10,Eye Repair Serum,156,18,16,158,0,No
+2025-02-11,Vitamin C Serum,364,38,31,371,0,No
+2025-02-11,Hydra Cream,0,56,56,0,8,Yes
+2025-02-11,Eye Repair Serum,158,17,14,161,0,No
+2025-02-12,Vitamin C Serum,371,44,28,387,0,No
+2025-02-12,Hydra Cream,0,54,54,0,18,Yes
+2025-02-12,Eye Repair Serum,161,16,19,158,0,No
+2025-02-13,Vitamin C Serum,387,39,37,389,0,No
+2025-02-13,Hydra Cream,0,46,46,0,16,Yes
+2025-02-13,Eye Repair Serum,158,17,17,158,0,No
+2025-02-14,Vitamin C Serum,389,41,33,397,0,No
+2025-02-14,Hydra Cream,0,52,52,0,33,Yes
+2025-02-14,Eye Repair Serum,158,18,15,161,0,No
+2025-02-15,Vitamin C Serum,397,40,27,410,0,No
+2025-02-15,Hydra Cream,0,50,50,0,8,Yes
+2025-02-15,Eye Repair Serum,161,16,18,159,0,No
+2025-02-16,Vitamin C Serum,410,42,29,423,0,No
+2025-02-16,Hydra Cream,0,53,53,0,28,Yes
+2025-02-16,Eye Repair Serum,159,18,15,162,0,No
+2025-02-17,Vitamin C Serum,423,43,29,437,0,No
+2025-02-17,Hydra Cream,0,20,20,0,47,Yes
+2025-02-17,Eye Repair Serum,162,16,15,163,0,No
+2025-02-18,Vitamin C Serum,437,40,26,451,0,No
+2025-02-18,Hydra Cream,0,55,55,0,27,Yes
+2025-02-18,Eye Repair Serum,163,19,16,166,0,No
+2025-02-19,Vitamin C Serum,451,41,37,455,0,No
+2025-02-19,Hydra Cream,0,49,49,0,35,Yes
+2025-02-19,Eye Repair Serum,166,16,16,166,0,No
+2025-02-20,Vitamin C Serum,455,41,27,469,0,No
+2025-02-20,Hydra Cream,0,54,54,0,30,Yes
+2025-02-20,Eye Repair Serum,166,19,19,166,0,No
+2025-02-21,Vitamin C Serum,469,38,37,470,0,No
+2025-02-21,Hydra Cream,0,52,52,0,7,Yes
+2025-02-21,Eye Repair Serum,166,17,15,168,0,No
+2025-02-22,Vitamin C Serum,470,39,26,483,0,No
+2025-02-22,Hydra Cream,0,46,46,0,10,Yes
+2025-02-22,Eye Repair Serum,168,17,15,170,0,No
+2025-02-23,Vitamin C Serum,483,40,34,489,0,No
+2025-02-23,Hydra Cream,0,49,49,0,16,Yes
+2025-02-23,Eye Repair Serum,170,19,13,176,0,No
+2025-02-24,Vitamin C Serum,489,45,32,502,0,No
+2025-02-24,Hydra Cream,0,54,54,0,10,Yes
+2025-02-24,Eye Repair Serum,176,18,14,180,0,No
+2025-02-25,Vitamin C Serum,502,43,29,516,0,No
+2025-02-25,Hydra Cream,0,47,47,0,12,Yes
+2025-02-25,Eye Repair Serum,180,20,16,184,0,No
+2025-02-26,Vitamin C Serum,516,39,33,522,0,No
+2025-02-26,Hydra Cream,0,51,51,0,19,Yes
+2025-02-26,Eye Repair Serum,184,19,18,185,0,No
+2025-02-27,Vitamin C Serum,522,45,37,530,0,No
+2025-02-27,Hydra Cream,0,21,21,0,32,Yes
+2025-02-27,Eye Repair Serum,185,20,16,189,0,No
+2025-02-28,Vitamin C Serum,530,43,35,538,0,No
+2025-02-28,Hydra Cream,0,55,55,0,9,Yes
+2025-02-28,Eye Repair Serum,189,18,19,188,0,No
+2025-03-01,Vitamin C Serum,538,45,47,536,0,No
+2025-03-01,Hydra Cream,0,50,50,0,10,Yes
+2025-03-01,Eye Repair Serum,188,17,20,185,0,No
+2025-03-02,Vitamin C Serum,536,39,38,537,0,No
+2025-03-02,Hydra Cream,0,52,52,0,10,Yes
+2025-03-02,Eye Repair Serum,185,17,18,184,0,No
+2025-03-03,Vitamin C Serum,537,42,45,534,0,No
+2025-03-03,Hydra Cream,0,46,46,0,18,Yes
+2025-03-03,Eye Repair Serum,184,19,20,183,0,No
+2025-03-04,Vitamin C Serum,534,38,41,531,0,No
+2025-03-04,Hydra Cream,0,49,49,0,1,Yes
+2025-03-04,Eye Repair Serum,183,17,21,179,0,No
+2025-03-05,Vitamin C Serum,531,39,39,531,0,No
+2025-03-05,Hydra Cream,0,49,49,0,9,Yes
+2025-03-05,Eye Repair Serum,179,19,19,179,0,No
+2025-03-06,Vitamin C Serum,531,43,43,531,0,No
+2025-03-06,Hydra Cream,0,54,54,0,5,Yes
+2025-03-06,Eye Repair Serum,179,8,20,167,0,No
+2025-03-07,Vitamin C Serum,531,46,39,538,0,No
+2025-03-07,Hydra Cream,0,52,52,0,4,Yes
+2025-03-07,Eye Repair Serum,167,20,18,169,0,No
+2025-03-08,Vitamin C Serum,538,42,37,543,0,No
+2025-03-08,Hydra Cream,0,55,55,0,8,Yes
+2025-03-08,Eye Repair Serum,169,9,21,157,0,No
+2025-03-09,Vitamin C Serum,543,41,36,548,0,No
+2025-03-09,Hydra Cream,0,47,47,0,12,Yes
+2025-03-09,Eye Repair Serum,157,18,20,155,0,No
+2025-03-10,Vitamin C Serum,548,40,43,545,0,No
+2025-03-10,Hydra Cream,0,50,48,2,0,No
+2025-03-10,Eye Repair Serum,155,19,21,153,0,No
+2025-03-11,Vitamin C Serum,545,40,43,542,0,No
+2025-03-11,Hydra Cream,2,32,34,0,30,Yes
+2025-03-11,Eye Repair Serum,153,18,19,152,0,No
+2025-03-12,Vitamin C Serum,542,45,50,537,0,No
+2025-03-12,Hydra Cream,0,55,48,7,0,No
+2025-03-12,Eye Repair Serum,152,20,18,154,0,No
+2025-03-13,Vitamin C Serum,537,43,46,534,0,No
+2025-03-13,Hydra Cream,7,50,57,0,4,Yes
+2025-03-13,Eye Repair Serum,154,17,20,151,0,No
+2025-03-14,Vitamin C Serum,534,43,37,540,0,No
+2025-03-14,Hydra Cream,0,47,47,0,12,Yes
+2025-03-14,Eye Repair Serum,151,20,17,154,0,No
+2025-03-15,Vitamin C Serum,540,45,40,545,0,No
+2025-03-15,Hydra Cream,0,47,47,0,9,Yes
+2025-03-15,Eye Repair Serum,154,16,21,149,0,No
+2025-03-16,Vitamin C Serum,545,40,38,547,0,No
+2025-03-16,Hydra Cream,0,54,54,0,8,Yes
+2025-03-16,Eye Repair Serum,149,20,16,153,0,No
+2025-03-17,Vitamin C Serum,547,44,42,549,0,No
+2025-03-17,Hydra Cream,0,54,53,1,0,No
+2025-03-17,Eye Repair Serum,153,18,17,154,0,No
+2025-03-18,Vitamin C Serum,549,46,50,545,0,No
+2025-03-18,Hydra Cream,1,55,56,0,15,Yes
+2025-03-18,Eye Repair Serum,154,17,17,154,0,No
+2025-03-19,Vitamin C Serum,545,45,46,544,0,No
+2025-03-19,Hydra Cream,0,52,52,0,16,Yes
+2025-03-19,Eye Repair Serum,154,6,20,140,0,No
+2025-03-20,Vitamin C Serum,544,46,49,541,0,No
+2025-03-20,Hydra Cream,0,55,55,0,1,Yes
+2025-03-20,Eye Repair Serum,140,19,19,140,0,No
+2025-03-21,Vitamin C Serum,541,38,35,544,0,No
+2025-03-21,Hydra Cream,0,24,24,0,34,Yes
+2025-03-21,Eye Repair Serum,140,20,18,142,0,No
+2025-03-22,Vitamin C Serum,544,39,35,548,0,No
+2025-03-22,Hydra Cream,0,53,53,0,3,Yes
+2025-03-22,Eye Repair Serum,142,19,21,140,0,No
+2025-03-23,Vitamin C Serum,548,39,43,544,0,No
+2025-03-23,Hydra Cream,0,46,46,0,21,Yes
+2025-03-23,Eye Repair Serum,140,20,17,143,0,No
+2025-03-24,Vitamin C Serum,544,45,47,542,0,No
+2025-03-24,Hydra Cream,0,53,53,0,16,Yes
+2025-03-24,Eye Repair Serum,143,17,19,141,0,No
+2025-03-25,Vitamin C Serum,542,44,46,540,0,No
+2025-03-25,Hydra Cream,0,51,51,0,12,Yes
+2025-03-25,Eye Repair Serum,141,17,19,139,0,No
+2025-03-26,Vitamin C Serum,540,42,40,542,0,No
+2025-03-26,Hydra Cream,0,46,46,0,10,Yes
+2025-03-26,Eye Repair Serum,139,16,18,137,0,No
+2025-03-27,Vitamin C Serum,542,38,35,545,0,No
+2025-03-27,Hydra Cream,0,48,48,0,7,Yes
+2025-03-27,Eye Repair Serum,137,20,20,137,0,No
+2025-03-28,Vitamin C Serum,545,39,40,544,0,No
+2025-03-28,Hydra Cream,0,56,56,0,15,Yes
+2025-03-28,Eye Repair Serum,137,17,22,132,0,No
+2025-03-29,Vitamin C Serum,544,46,37,553,0,No
+2025-03-29,Hydra Cream,0,47,47,0,2,Yes
+2025-03-29,Eye Repair Serum,132,19,16,135,0,No
+2025-03-30,Vitamin C Serum,553,45,40,558,0,No
+2025-03-30,Hydra Cream,0,48,48,0,18,Yes
+2025-03-30,Eye Repair Serum,135,20,16,139,0,No
+2025-03-31,Vitamin C Serum,558,40,43,555,0,No
+2025-03-31,Hydra Cream,0,48,48,0,13,Yes
+2025-03-31,Eye Repair Serum,139,9,16,132,0,No
+2025-04-01,Vitamin C Serum,555,40,42,553,0,No
+2025-04-01,Hydra Cream,0,55,51,4,0,No
+2025-04-01,Eye Repair Serum,132,20,16,136,0,No
+2025-04-02,Vitamin C Serum,553,38,42,549,0,No
+2025-04-02,Hydra Cream,4,56,54,6,0,No
+2025-04-02,Eye Repair Serum,136,16,17,135,0,No
+2025-04-03,Vitamin C Serum,549,25,46,528,0,No
+2025-04-03,Hydra Cream,6,56,61,1,0,No
+2025-04-03,Eye Repair Serum,135,19,17,137,0,No
+2025-04-04,Vitamin C Serum,528,17,56,489,0,No
+2025-04-04,Hydra Cream,1,34,35,0,11,Yes
+2025-04-04,Eye Repair Serum,137,18,16,139,0,No
+2025-04-05,Vitamin C Serum,489,45,41,493,0,No
+2025-04-05,Hydra Cream,0,48,45,3,0,No
+2025-04-05,Eye Repair Serum,139,18,20,137,0,No
+2025-04-06,Vitamin C Serum,493,38,54,477,0,No
+2025-04-06,Hydra Cream,3,50,45,8,0,No
+2025-04-06,Eye Repair Serum,137,16,17,136,0,No
+2025-04-07,Vitamin C Serum,477,38,53,462,0,No
+2025-04-07,Hydra Cream,8,55,53,10,0,No
+2025-04-07,Eye Repair Serum,136,16,17,135,0,No
+2025-04-08,Vitamin C Serum,462,43,45,460,0,No
+2025-04-08,Hydra Cream,10,46,56,0,2,Yes
+2025-04-08,Eye Repair Serum,135,20,22,133,0,No
+2025-04-09,Vitamin C Serum,460,44,51,453,0,No
+2025-04-09,Hydra Cream,0,56,54,2,0,No
+2025-04-09,Eye Repair Serum,133,19,17,135,0,No
+2025-04-10,Vitamin C Serum,453,39,57,435,0,No
+2025-04-10,Hydra Cream,2,48,50,0,2,Yes
+2025-04-10,Eye Repair Serum,135,18,18,135,0,No
+2025-04-11,Vitamin C Serum,435,44,54,425,0,No
+2025-04-11,Hydra Cream,0,47,47,0,8,Yes
+2025-04-11,Eye Repair Serum,135,8,16,127,0,No
+2025-04-12,Vitamin C Serum,425,40,54,411,0,No
+2025-04-12,Hydra Cream,0,55,55,0,3,Yes
+2025-04-12,Eye Repair Serum,127,16,17,126,0,No
+2025-04-13,Vitamin C Serum,411,46,58,399,0,No
+2025-04-13,Hydra Cream,0,55,55,0,7,Yes
+2025-04-13,Eye Repair Serum,126,20,21,125,0,No
+2025-04-14,Vitamin C Serum,399,41,59,381,0,No
+2025-04-14,Hydra Cream,0,49,49,0,13,Yes
+2025-04-14,Eye Repair Serum,125,16,17,124,0,No
+2025-04-15,Vitamin C Serum,381,40,75,346,0,No
+2025-04-15,Hydra Cream,0,56,56,0,4,Yes
+2025-04-15,Eye Repair Serum,124,20,18,126,0,No
+2025-04-16,Vitamin C Serum,346,46,58,334,0,No
+2025-04-16,Hydra Cream,0,51,51,0,6,Yes
+2025-04-16,Eye Repair Serum,126,18,21,123,0,No
+2025-04-17,Vitamin C Serum,334,45,70,309,0,No
+2025-04-17,Hydra Cream,0,54,54,0,9,Yes
+2025-04-17,Eye Repair Serum,123,19,20,122,0,No
+2025-04-18,Vitamin C Serum,309,41,59,291,0,No
+2025-04-18,Hydra Cream,0,47,44,3,0,No
+2025-04-18,Eye Repair Serum,122,19,19,122,0,No
+2025-04-19,Vitamin C Serum,291,46,78,259,0,No
+2025-04-19,Hydra Cream,3,50,47,6,0,No
+2025-04-19,Eye Repair Serum,122,18,18,122,0,No
+2025-04-20,Vitamin C Serum,259,46,71,234,0,No
+2025-04-20,Hydra Cream,6,52,58,0,1,Yes
+2025-04-20,Eye Repair Serum,122,16,18,120,0,No
+2025-04-21,Vitamin C Serum,234,40,58,216,0,No
+2025-04-21,Hydra Cream,0,46,46,0,7,Yes
+2025-04-21,Eye Repair Serum,120,19,20,119,0,No
+2025-04-22,Vitamin C Serum,216,39,61,194,0,No
+2025-04-22,Hydra Cream,0,55,55,0,9,Yes
+2025-04-22,Eye Repair Serum,119,20,20,119,0,No
+2025-04-23,Vitamin C Serum,194,19,59,154,0,No
+2025-04-23,Hydra Cream,0,50,50,0,0,No
+2025-04-23,Eye Repair Serum,119,16,15,120,0,No
+2025-04-24,Vitamin C Serum,154,46,57,143,0,No
+2025-04-24,Hydra Cream,0,50,47,3,0,No
+2025-04-24,Eye Repair Serum,120,19,16,123,0,No
+2025-04-25,Vitamin C Serum,143,38,41,140,0,No
+2025-04-25,Hydra Cream,3,56,49,10,0,No
+2025-04-25,Eye Repair Serum,123,20,20,123,0,No
+2025-04-26,Vitamin C Serum,140,39,40,139,0,No
+2025-04-26,Hydra Cream,10,53,56,7,0,No
+2025-04-26,Eye Repair Serum,123,16,16,123,0,No
+2025-04-27,Vitamin C Serum,139,41,54,126,0,No
+2025-04-27,Hydra Cream,7,49,54,2,0,No
+2025-04-27,Eye Repair Serum,123,18,17,124,0,No
+2025-04-28,Vitamin C Serum,126,43,45,124,0,No
+2025-04-28,Hydra Cream,2,47,49,0,9,Yes
+2025-04-28,Eye Repair Serum,124,8,22,110,0,No
+2025-04-29,Vitamin C Serum,124,39,53,110,0,No
+2025-04-29,Hydra Cream,0,54,54,0,6,Yes
+2025-04-29,Eye Repair Serum,110,18,18,110,0,No
+2025-04-30,Vitamin C Serum,110,40,54,96,0,No
+2025-04-30,Hydra Cream,0,19,19,0,42,Yes
+2025-04-30,Eye Repair Serum,110,20,20,110,0,No
+2025-05-01,Vitamin C Serum,96,42,63,75,0,No
+2025-05-01,Hydra Cream,0,46,46,0,6,Yes
+2025-05-01,Eye Repair Serum,110,11,15,106,0,No
+2025-05-02,Vitamin C Serum,75,42,61,56,0,No
+2025-05-02,Hydra Cream,0,49,49,0,8,Yes
+2025-05-02,Eye Repair Serum,106,19,20,105,0,No
+2025-05-03,Vitamin C Serum,56,43,53,46,0,No
+2025-05-03,Hydra Cream,0,51,51,0,0,No
+2025-05-03,Eye Repair Serum,105,18,15,108,0,No
+2025-05-04,Vitamin C Serum,46,40,49,37,0,No
+2025-05-04,Hydra Cream,0,47,47,0,4,Yes
+2025-05-04,Eye Repair Serum,108,20,15,113,0,No
+2025-05-05,Vitamin C Serum,37,38,57,18,0,No
+2025-05-05,Hydra Cream,0,50,43,7,0,No
+2025-05-05,Eye Repair Serum,113,16,19,110,0,No
+2025-05-06,Vitamin C Serum,18,44,61,1,0,No
+2025-05-06,Hydra Cream,7,53,45,15,0,No
+2025-05-06,Eye Repair Serum,110,20,20,110,0,No
+2025-05-07,Vitamin C Serum,1,42,43,0,11,Yes
+2025-05-07,Hydra Cream,15,55,40,30,0,No
+2025-05-07,Eye Repair Serum,110,19,17,112,0,No
+2025-05-08,Vitamin C Serum,0,42,42,0,10,Yes
+2025-05-08,Hydra Cream,30,51,48,33,0,No
+2025-05-08,Eye Repair Serum,112,17,16,113,0,No
+2025-05-09,Vitamin C Serum,0,17,17,0,51,Yes
+2025-05-09,Hydra Cream,33,47,41,39,0,No
+2025-05-09,Eye Repair Serum,113,20,18,115,0,No
+2025-05-10,Vitamin C Serum,0,20,20,0,39,Yes
+2025-05-10,Hydra Cream,39,53,54,38,0,No
+2025-05-10,Eye Repair Serum,115,16,18,113,0,No
+2025-05-11,Vitamin C Serum,0,40,40,0,19,Yes
+2025-05-11,Hydra Cream,38,49,40,47,0,No
+2025-05-11,Eye Repair Serum,113,16,21,108,0,No
+2025-05-12,Vitamin C Serum,0,46,46,0,21,Yes
+2025-05-12,Hydra Cream,47,47,46,48,0,No
+2025-05-12,Eye Repair Serum,108,16,19,105,0,No
+2025-05-13,Vitamin C Serum,0,25,25,0,39,Yes
+2025-05-13,Hydra Cream,48,53,42,59,0,No
+2025-05-13,Eye Repair Serum,105,20,16,109,0,No
+2025-05-14,Vitamin C Serum,0,43,43,0,22,Yes
+2025-05-14,Hydra Cream,59,51,53,57,0,No
+2025-05-14,Eye Repair Serum,109,20,17,112,0,No
+2025-05-15,Vitamin C Serum,0,41,41,0,29,Yes
+2025-05-15,Hydra Cream,57,56,50,63,0,No
+2025-05-15,Eye Repair Serum,112,16,18,110,0,No
+2025-05-16,Vitamin C Serum,0,39,39,0,28,Yes
+2025-05-16,Hydra Cream,63,52,55,60,0,No
+2025-05-16,Eye Repair Serum,110,18,18,110,0,No
+2025-05-17,Vitamin C Serum,0,40,40,0,19,Yes
+2025-05-17,Hydra Cream,60,35,41,54,0,No
+2025-05-17,Eye Repair Serum,110,17,16,111,0,No
+2025-05-18,Vitamin C Serum,0,40,40,0,9,Yes
+2025-05-18,Hydra Cream,54,49,45,58,0,No
+2025-05-18,Eye Repair Serum,111,17,20,108,0,No
+2025-05-19,Vitamin C Serum,0,38,38,0,27,Yes
+2025-05-19,Hydra Cream,58,48,55,51,0,No
+2025-05-19,Eye Repair Serum,108,16,18,106,0,No
+2025-05-20,Vitamin C Serum,0,45,45,0,19,Yes
+2025-05-20,Hydra Cream,51,55,55,51,0,No
+2025-05-20,Eye Repair Serum,106,20,18,108,0,No
+2025-05-21,Vitamin C Serum,0,41,41,0,18,Yes
+2025-05-21,Hydra Cream,51,50,57,44,0,No
+2025-05-21,Eye Repair Serum,108,18,14,112,0,No
+2025-05-22,Vitamin C Serum,0,41,41,0,12,Yes
+2025-05-22,Hydra Cream,44,46,49,41,0,No
+2025-05-22,Eye Repair Serum,112,18,21,109,0,No
+2025-05-23,Vitamin C Serum,0,40,40,0,14,Yes
+2025-05-23,Hydra Cream,41,54,52,43,0,No
+2025-05-23,Eye Repair Serum,109,20,15,114,0,No
+2025-05-24,Vitamin C Serum,0,42,42,0,17,Yes
+2025-05-24,Hydra Cream,43,50,45,48,0,No
+2025-05-24,Eye Repair Serum,114,19,15,118,0,No
+2025-05-25,Vitamin C Serum,0,42,42,0,25,Yes
+2025-05-25,Hydra Cream,48,56,49,55,0,No
+2025-05-25,Eye Repair Serum,118,16,19,115,0,No
+2025-05-26,Vitamin C Serum,0,39,39,0,18,Yes
+2025-05-26,Hydra Cream,55,50,42,63,0,No
+2025-05-26,Eye Repair Serum,115,18,19,114,0,No
+2025-05-27,Vitamin C Serum,0,45,45,0,11,Yes
+2025-05-27,Hydra Cream,63,52,44,71,0,No
+2025-05-27,Eye Repair Serum,114,19,17,116,0,No
+2025-05-28,Vitamin C Serum,0,39,39,0,15,Yes
+2025-05-28,Hydra Cream,71,50,46,75,0,No
+2025-05-28,Eye Repair Serum,116,20,20,116,0,No
+2025-05-29,Vitamin C Serum,0,38,38,0,32,Yes
+2025-05-29,Hydra Cream,75,48,40,83,0,No
+2025-05-29,Eye Repair Serum,116,17,15,118,0,No
+2025-05-30,Vitamin C Serum,0,46,46,0,18,Yes
+2025-05-30,Hydra Cream,83,48,57,74,0,No
+2025-05-30,Eye Repair Serum,118,17,15,120,0,No
+2025-05-31,Vitamin C Serum,0,45,45,0,3,Yes
+2025-05-31,Hydra Cream,74,55,50,79,0,No
+2025-05-31,Eye Repair Serum,120,18,19,119,0,No
+2025-06-01,Vitamin C Serum,0,44,44,0,1,Yes
+2025-06-01,Hydra Cream,79,55,42,92,0,No
+2025-06-01,Eye Repair Serum,119,18,19,118,0,No
+2025-06-02,Vitamin C Serum,0,39,39,0,1,Yes
+2025-06-02,Hydra Cream,92,53,49,96,0,No
+2025-06-02,Eye Repair Serum,118,17,13,122,0,No
+2025-06-03,Vitamin C Serum,0,44,41,3,0,No
+2025-06-03,Hydra Cream,96,46,38,104,0,No
+2025-06-03,Eye Repair Serum,122,20,13,129,0,No
+2025-06-04,Vitamin C Serum,3,44,47,0,0,No
+2025-06-04,Hydra Cream,104,46,36,114,0,No
+2025-06-04,Eye Repair Serum,129,17,16,130,0,No
+2025-06-05,Vitamin C Serum,0,43,43,0,8,Yes
+2025-06-05,Hydra Cream,114,47,35,126,0,No
+2025-06-05,Eye Repair Serum,130,18,15,133,0,No
+2025-06-06,Vitamin C Serum,0,38,38,0,10,Yes
+2025-06-06,Hydra Cream,126,48,46,128,0,No
+2025-06-06,Eye Repair Serum,133,18,16,135,0,No
+2025-06-07,Vitamin C Serum,0,42,42,0,2,Yes
+2025-06-07,Hydra Cream,128,54,41,141,0,No
+2025-06-07,Eye Repair Serum,135,19,18,136,0,No
+2025-06-08,Vitamin C Serum,0,41,41,0,15,Yes
+2025-06-08,Hydra Cream,141,49,46,144,0,No
+2025-06-08,Eye Repair Serum,136,19,13,142,0,No
+2025-06-09,Vitamin C Serum,0,44,44,0,8,Yes
+2025-06-09,Hydra Cream,144,53,41,156,0,No
+2025-06-09,Eye Repair Serum,142,19,16,145,0,No
+2025-06-10,Vitamin C Serum,0,40,40,0,15,Yes
+2025-06-10,Hydra Cream,156,50,47,159,0,No
+2025-06-10,Eye Repair Serum,145,16,14,147,0,No
+2025-06-11,Vitamin C Serum,0,41,41,0,16,Yes
+2025-06-11,Hydra Cream,159,50,46,163,0,No
+2025-06-11,Eye Repair Serum,147,19,17,149,0,No
+2025-06-12,Vitamin C Serum,0,41,41,0,18,Yes
+2025-06-12,Hydra Cream,163,47,49,161,0,No
+2025-06-12,Eye Repair Serum,149,17,14,152,0,No
+2025-06-13,Vitamin C Serum,0,40,40,0,10,Yes
+2025-06-13,Hydra Cream,161,24,48,137,0,No
+2025-06-13,Eye Repair Serum,152,18,18,152,0,No
+2025-06-14,Vitamin C Serum,0,42,42,0,5,Yes
+2025-06-14,Hydra Cream,137,51,38,150,0,No
+2025-06-14,Eye Repair Serum,152,20,14,158,0,No
+2025-06-15,Vitamin C Serum,0,44,44,0,10,Yes
+2025-06-15,Hydra Cream,150,55,40,165,0,No
+2025-06-15,Eye Repair Serum,158,18,17,159,0,No
+2025-06-16,Vitamin C Serum,0,45,45,0,6,Yes
+2025-06-16,Hydra Cream,165,53,46,172,0,No
+2025-06-16,Eye Repair Serum,159,17,13,163,0,No
+2025-06-17,Vitamin C Serum,0,45,45,0,10,Yes
+2025-06-17,Hydra Cream,172,47,49,170,0,No
+2025-06-17,Eye Repair Serum,163,18,18,163,0,No
+2025-06-18,Vitamin C Serum,0,41,41,0,6,Yes
+2025-06-18,Hydra Cream,170,55,36,189,0,No
+2025-06-18,Eye Repair Serum,163,20,19,164,0,No
+2025-06-19,Vitamin C Serum,0,38,38,0,13,Yes
+2025-06-19,Hydra Cream,189,51,50,190,0,No
+2025-06-19,Eye Repair Serum,164,20,15,169,0,No
+2025-06-20,Vitamin C Serum,0,43,43,0,0,No
+2025-06-20,Hydra Cream,190,51,39,202,0,No
+2025-06-20,Eye Repair Serum,169,18,18,169,0,No
+2025-06-21,Vitamin C Serum,0,43,42,1,0,No
+2025-06-21,Hydra Cream,202,47,44,205,0,No
+2025-06-21,Eye Repair Serum,169,17,16,170,0,No
+2025-06-22,Vitamin C Serum,1,46,42,5,0,No
+2025-06-22,Hydra Cream,205,55,39,221,0,No
+2025-06-22,Eye Repair Serum,170,19,14,175,0,No
+2025-06-23,Vitamin C Serum,5,15,20,0,26,Yes
+2025-06-23,Hydra Cream,221,56,44,233,0,No
+2025-06-23,Eye Repair Serum,175,20,19,176,0,No
+2025-06-24,Vitamin C Serum,0,46,46,0,13,Yes
+2025-06-24,Hydra Cream,233,48,39,242,0,No
+2025-06-24,Eye Repair Serum,176,17,15,178,0,No
+2025-06-25,Vitamin C Serum,0,45,45,0,14,Yes
+2025-06-25,Hydra Cream,242,26,36,232,0,No
+2025-06-25,Eye Repair Serum,178,19,15,182,0,No
+2025-06-26,Vitamin C Serum,0,38,38,0,19,Yes
+2025-06-26,Hydra Cream,232,46,37,241,0,No
+2025-06-26,Eye Repair Serum,182,17,16,183,0,No
+2025-06-27,Vitamin C Serum,0,25,25,0,29,Yes
+2025-06-27,Hydra Cream,241,48,42,247,0,No
+2025-06-27,Eye Repair Serum,183,17,17,183,0,No
+2025-06-28,Vitamin C Serum,0,46,46,0,11,Yes
+2025-06-28,Hydra Cream,247,48,38,257,0,No
+2025-06-28,Eye Repair Serum,183,17,15,185,0,No
+2025-06-29,Vitamin C Serum,0,39,39,0,1,Yes
+2025-06-29,Hydra Cream,257,48,42,263,0,No
+2025-06-29,Eye Repair Serum,185,17,15,187,0,No
+2025-06-30,Vitamin C Serum,0,45,45,0,14,Yes
+2025-06-30,Hydra Cream,263,51,43,271,0,No
+2025-06-30,Eye Repair Serum,187,16,18,185,0,No
+2025-07-01,Vitamin C Serum,0,38,30,8,0,No
+2025-07-01,Hydra Cream,271,46,32,285,0,No
+2025-07-01,Eye Repair Serum,185,19,12,192,0,No
+2025-07-02,Vitamin C Serum,8,44,32,20,0,No
+2025-07-02,Hydra Cream,285,54,31,308,0,No
+2025-07-02,Eye Repair Serum,192,17,17,192,0,No
+2025-07-03,Vitamin C Serum,20,40,35,25,0,No
+2025-07-03,Hydra Cream,308,49,37,320,0,No
+2025-07-03,Eye Repair Serum,192,20,16,196,0,No
+2025-07-04,Vitamin C Serum,25,40,37,28,0,No
+2025-07-04,Hydra Cream,320,55,35,340,0,No
+2025-07-04,Eye Repair Serum,196,20,12,204,0,No
+2025-07-05,Vitamin C Serum,28,43,40,31,0,No
+2025-07-05,Hydra Cream,340,48,32,356,0,No
+2025-07-05,Eye Repair Serum,204,17,15,206,0,No
+2025-07-06,Vitamin C Serum,31,44,44,31,0,No
+2025-07-06,Hydra Cream,356,49,31,374,0,No
+2025-07-06,Eye Repair Serum,206,19,12,213,0,No
+2025-07-07,Vitamin C Serum,31,44,43,32,0,No
+2025-07-07,Hydra Cream,374,52,30,396,0,No
+2025-07-07,Eye Repair Serum,213,20,13,220,0,No
+2025-07-08,Vitamin C Serum,32,38,32,38,0,No
+2025-07-08,Hydra Cream,396,55,34,417,0,No
+2025-07-08,Eye Repair Serum,220,9,14,215,0,No
+2025-07-09,Vitamin C Serum,38,40,41,37,0,No
+2025-07-09,Hydra Cream,417,52,38,431,0,No
+2025-07-09,Eye Repair Serum,215,19,13,221,0,No
+2025-07-10,Vitamin C Serum,37,41,30,48,0,No
+2025-07-10,Hydra Cream,431,47,32,446,0,No
+2025-07-10,Eye Repair Serum,221,19,17,223,0,No
+2025-07-11,Vitamin C Serum,48,41,35,54,0,No
+2025-07-11,Hydra Cream,446,47,32,461,0,No
+2025-07-11,Eye Repair Serum,223,20,12,231,0,No
+2025-07-12,Vitamin C Serum,54,39,35,58,0,No
+2025-07-12,Hydra Cream,461,53,29,485,0,No
+2025-07-12,Eye Repair Serum,231,19,13,237,0,No
+2025-07-13,Vitamin C Serum,58,46,34,70,0,No
+2025-07-13,Hydra Cream,485,55,35,505,0,No
+2025-07-13,Eye Repair Serum,237,17,14,240,0,No
+2025-07-14,Vitamin C Serum,70,46,37,79,0,No
+2025-07-14,Hydra Cream,505,50,37,518,0,No
+2025-07-14,Eye Repair Serum,240,19,17,242,0,No
+2025-07-15,Vitamin C Serum,79,43,39,83,0,No
+2025-07-15,Hydra Cream,518,54,30,542,0,No
+2025-07-15,Eye Repair Serum,242,18,15,245,0,No
+2025-07-16,Vitamin C Serum,83,42,30,95,0,No
+2025-07-16,Hydra Cream,542,54,40,556,0,No
+2025-07-16,Eye Repair Serum,245,18,17,246,0,No
+2025-07-17,Vitamin C Serum,95,46,44,97,0,No
+2025-07-17,Hydra Cream,556,54,37,573,0,No
+2025-07-17,Eye Repair Serum,246,18,13,251,0,No
+2025-07-18,Vitamin C Serum,97,41,30,108,0,No
+2025-07-18,Hydra Cream,573,52,38,587,0,No
+2025-07-18,Eye Repair Serum,251,17,14,254,0,No
+2025-07-19,Vitamin C Serum,108,46,44,110,0,No
+2025-07-19,Hydra Cream,587,46,31,602,0,No
+2025-07-19,Eye Repair Serum,254,17,15,256,0,No
+2025-07-20,Vitamin C Serum,110,42,41,111,0,No
+2025-07-20,Hydra Cream,602,56,42,616,0,No
+2025-07-20,Eye Repair Serum,256,20,17,259,0,No
+2025-07-21,Vitamin C Serum,111,41,40,112,0,No
+2025-07-21,Hydra Cream,616,53,30,639,0,No
+2025-07-21,Eye Repair Serum,259,16,14,261,0,No
+2025-07-22,Vitamin C Serum,112,38,40,110,0,No
+2025-07-22,Hydra Cream,639,31,40,630,0,No
+2025-07-22,Eye Repair Serum,261,20,16,265,0,No
+2025-07-23,Vitamin C Serum,110,40,36,114,0,No
+2025-07-23,Hydra Cream,630,51,40,641,0,No
+2025-07-23,Eye Repair Serum,265,20,17,268,0,No
+2025-07-24,Vitamin C Serum,114,41,44,111,0,No
+2025-07-24,Hydra Cream,641,49,40,650,0,No
+2025-07-24,Eye Repair Serum,268,17,13,272,0,No
+2025-07-25,Vitamin C Serum,111,38,38,111,0,No
+2025-07-25,Hydra Cream,650,52,36,666,0,No
+2025-07-25,Eye Repair Serum,272,20,12,280,0,No
+2025-07-26,Vitamin C Serum,111,45,34,122,0,No
+2025-07-26,Hydra Cream,666,55,36,685,0,No
+2025-07-26,Eye Repair Serum,280,18,17,281,0,No
+2025-07-27,Vitamin C Serum,122,42,37,127,0,No
+2025-07-27,Hydra Cream,685,46,38,693,0,No
+2025-07-27,Eye Repair Serum,281,19,16,284,0,No
+2025-07-28,Vitamin C Serum,127,45,44,128,0,No
+2025-07-28,Hydra Cream,693,54,40,707,0,No
+2025-07-28,Eye Repair Serum,284,16,14,286,0,No
+2025-07-29,Vitamin C Serum,128,40,31,137,0,No
+2025-07-29,Hydra Cream,707,23,32,698,0,No
+2025-07-29,Eye Repair Serum,286,19,16,289,0,No
+2025-07-30,Vitamin C Serum,137,39,43,133,0,No
+2025-07-30,Hydra Cream,698,46,29,715,0,No
+2025-07-30,Eye Repair Serum,289,19,14,294,0,No
+2025-07-31,Vitamin C Serum,133,46,39,140,0,No
+2025-07-31,Hydra Cream,715,47,36,726,0,No
+2025-07-31,Eye Repair Serum,294,17,17,294,0,No
+2025-08-01,Vitamin C Serum,140,44,29,155,0,No
+2025-08-01,Hydra Cream,726,21,36,711,0,No
+2025-08-01,Eye Repair Serum,294,18,18,294,0,No
+2025-08-02,Vitamin C Serum,155,42,35,162,0,No
+2025-08-02,Hydra Cream,711,54,34,731,0,No
+2025-08-02,Eye Repair Serum,294,17,15,296,0,No
+2025-08-03,Vitamin C Serum,162,38,27,173,0,No
+2025-08-03,Hydra Cream,731,53,33,751,0,No
+2025-08-03,Eye Repair Serum,296,16,13,299,0,No
+2025-08-04,Vitamin C Serum,173,41,39,175,0,No
+2025-08-04,Hydra Cream,751,48,42,757,0,No
+2025-08-04,Eye Repair Serum,299,18,16,301,0,No
+2025-08-05,Vitamin C Serum,175,45,36,184,0,No
+2025-08-05,Hydra Cream,757,48,40,765,0,No
+2025-08-05,Eye Repair Serum,301,18,17,302,0,No
+2025-08-06,Vitamin C Serum,184,45,34,195,0,No
+2025-08-06,Hydra Cream,765,46,35,776,0,No
+2025-08-06,Eye Repair Serum,302,16,15,303,0,No
+2025-08-07,Vitamin C Serum,195,42,36,201,0,No
+2025-08-07,Hydra Cream,776,48,37,787,0,No
+2025-08-07,Eye Repair Serum,303,20,17,306,0,No
+2025-08-08,Vitamin C Serum,201,40,36,205,0,No
+2025-08-08,Hydra Cream,787,48,35,800,0,No
+2025-08-08,Eye Repair Serum,306,17,17,306,0,No
+2025-08-09,Vitamin C Serum,205,42,32,215,0,No
+2025-08-09,Hydra Cream,800,46,34,812,0,No
+2025-08-09,Eye Repair Serum,306,20,17,309,0,No
+2025-08-10,Vitamin C Serum,215,46,37,224,0,No
+2025-08-10,Hydra Cream,812,53,38,827,0,No
+2025-08-10,Eye Repair Serum,309,16,13,312,0,No
+2025-08-11,Vitamin C Serum,224,41,32,233,0,No
+2025-08-11,Hydra Cream,827,52,34,845,0,No
+2025-08-11,Eye Repair Serum,312,18,14,316,0,No
+2025-08-12,Vitamin C Serum,233,44,36,241,0,No
+2025-08-12,Hydra Cream,845,50,37,858,0,No
+2025-08-12,Eye Repair Serum,316,19,16,319,0,No
+2025-08-13,Vitamin C Serum,241,43,35,249,0,No
+2025-08-13,Hydra Cream,858,51,32,877,0,No
+2025-08-13,Eye Repair Serum,319,16,14,321,0,No
+2025-08-14,Vitamin C Serum,249,46,37,258,0,No
+2025-08-14,Hydra Cream,877,56,38,895,0,No
+2025-08-14,Eye Repair Serum,321,17,13,325,0,No
+2025-08-15,Vitamin C Serum,258,46,32,272,0,No
+2025-08-15,Hydra Cream,895,49,39,905,0,No
+2025-08-15,Eye Repair Serum,325,19,14,330,0,No
+2025-08-16,Vitamin C Serum,272,41,32,281,0,No
+2025-08-16,Hydra Cream,905,50,41,914,0,No
+2025-08-16,Eye Repair Serum,330,17,17,330,0,No
+2025-08-17,Vitamin C Serum,281,40,35,286,0,No
+2025-08-17,Hydra Cream,914,54,31,937,0,No
+2025-08-17,Eye Repair Serum,330,20,14,336,0,No
+2025-08-18,Vitamin C Serum,286,38,32,292,0,No
+2025-08-18,Hydra Cream,937,47,34,950,0,No
+2025-08-18,Eye Repair Serum,336,20,13,343,0,No
+2025-08-19,Vitamin C Serum,292,43,30,305,0,No
+2025-08-19,Hydra Cream,950,56,39,967,0,No
+2025-08-19,Eye Repair Serum,343,17,21,339,0,No
+2025-08-20,Vitamin C Serum,305,38,32,311,0,No
+2025-08-20,Hydra Cream,967,55,32,990,0,No
+2025-08-20,Eye Repair Serum,339,16,20,335,0,No
+2025-08-21,Vitamin C Serum,311,45,28,328,0,No
+2025-08-21,Hydra Cream,990,52,40,1002,0,No
+2025-08-21,Eye Repair Serum,335,19,22,332,0,No
+2025-08-22,Vitamin C Serum,328,41,35,334,0,No
+2025-08-22,Hydra Cream,1002,46,39,1009,0,No
+2025-08-22,Eye Repair Serum,332,20,16,336,0,No
+2025-08-23,Vitamin C Serum,334,45,36,343,0,No
+2025-08-23,Hydra Cream,1009,52,31,1030,0,No
+2025-08-23,Eye Repair Serum,336,16,17,335,0,No
+2025-08-24,Vitamin C Serum,343,40,36,347,0,No
+2025-08-24,Hydra Cream,1030,55,41,1044,0,No
+2025-08-24,Eye Repair Serum,335,20,15,340,0,No
+2025-08-25,Vitamin C Serum,347,43,35,355,0,No
+2025-08-25,Hydra Cream,1044,31,42,1033,0,No
+2025-08-25,Eye Repair Serum,340,18,17,341,0,No
+2025-08-26,Vitamin C Serum,355,40,33,362,0,No
+2025-08-26,Hydra Cream,1033,35,31,1037,0,No
+2025-08-26,Eye Repair Serum,341,20,15,346,0,No
+2025-08-27,Vitamin C Serum,362,40,38,364,0,No
+2025-08-27,Hydra Cream,1037,50,38,1049,0,No
+2025-08-27,Eye Repair Serum,346,17,16,347,0,No
+2025-08-28,Vitamin C Serum,364,46,28,382,0,No
+2025-08-28,Hydra Cream,1049,53,31,1071,0,No
+2025-08-28,Eye Repair Serum,347,16,16,347,0,No
+2025-08-29,Vitamin C Serum,382,39,28,393,0,No
+2025-08-29,Hydra Cream,1071,49,43,1077,0,No
+2025-08-29,Eye Repair Serum,347,19,12,354,0,No
+2025-08-30,Vitamin C Serum,393,43,36,400,0,No
+2025-08-30,Hydra Cream,1077,50,38,1089,0,No
+2025-08-30,Eye Repair Serum,354,11,14,351,0,No
+2025-08-31,Vitamin C Serum,400,41,38,403,0,No
+2025-08-31,Hydra Cream,1089,48,30,1107,0,No
+2025-08-31,Eye Repair Serum,351,18,15,354,0,No
+2025-09-01,Vitamin C Serum,403,38,49,392,0,No
+2025-09-01,Hydra Cream,1107,54,48,1113,0,No
+2025-09-01,Eye Repair Serum,354,16,17,353,0,No
+2025-09-02,Vitamin C Serum,392,39,41,390,0,No
+2025-09-02,Hydra Cream,1113,50,42,1121,0,No
+2025-09-02,Eye Repair Serum,353,19,15,357,0,No
+2025-09-03,Vitamin C Serum,390,41,35,396,0,No
+2025-09-03,Hydra Cream,1121,48,37,1132,0,No
+2025-09-03,Eye Repair Serum,357,17,18,356,0,No
+2025-09-04,Vitamin C Serum,396,42,45,393,0,No
+2025-09-04,Hydra Cream,1132,56,41,1147,0,No
+2025-09-04,Eye Repair Serum,356,19,16,359,0,No
+2025-09-05,Vitamin C Serum,393,42,45,390,0,No
+2025-09-05,Hydra Cream,1147,46,41,1152,0,No
+2025-09-05,Eye Repair Serum,359,17,17,359,0,No
+2025-09-06,Vitamin C Serum,390,21,43,368,0,No
+2025-09-06,Hydra Cream,1152,56,42,1166,0,No
+2025-09-06,Eye Repair Serum,359,20,19,360,0,No
+2025-09-07,Vitamin C Serum,368,40,40,368,0,No
+2025-09-07,Hydra Cream,1166,53,41,1178,0,No
+2025-09-07,Eye Repair Serum,360,19,20,359,0,No
+2025-09-08,Vitamin C Serum,368,39,37,370,0,No
+2025-09-08,Hydra Cream,1178,47,37,1188,0,No
+2025-09-08,Eye Repair Serum,359,20,18,361,0,No
+2025-09-09,Vitamin C Serum,370,40,41,369,0,No
+2025-09-09,Hydra Cream,1188,53,45,1196,0,No
+2025-09-09,Eye Repair Serum,361,20,16,365,0,No
+2025-09-10,Vitamin C Serum,369,38,47,360,0,No
+2025-09-10,Hydra Cream,1196,55,47,1204,0,No
+2025-09-10,Eye Repair Serum,365,20,16,369,0,No
+2025-09-11,Vitamin C Serum,360,43,50,353,0,No
+2025-09-11,Hydra Cream,1204,30,43,1191,0,No
+2025-09-11,Eye Repair Serum,369,16,15,370,0,No
+2025-09-12,Vitamin C Serum,353,43,36,360,0,No
+2025-09-12,Hydra Cream,1191,50,39,1202,0,No
+2025-09-12,Eye Repair Serum,370,16,17,369,0,No
+2025-09-13,Vitamin C Serum,360,39,41,358,0,No
+2025-09-13,Hydra Cream,1202,51,50,1203,0,No
+2025-09-13,Eye Repair Serum,369,16,19,366,0,No
+2025-09-14,Vitamin C Serum,358,21,44,335,0,No
+2025-09-14,Hydra Cream,1203,47,36,1214,0,No
+2025-09-14,Eye Repair Serum,366,17,15,368,0,No
+2025-09-15,Vitamin C Serum,335,46,43,338,0,No
+2025-09-15,Hydra Cream,1214,50,35,1229,0,No
+2025-09-15,Eye Repair Serum,368,20,17,371,0,No
+2025-09-16,Vitamin C Serum,338,39,43,334,0,No
+2025-09-16,Hydra Cream,1229,53,45,1237,0,No
+2025-09-16,Eye Repair Serum,371,17,15,373,0,No
+2025-09-17,Vitamin C Serum,334,41,44,331,0,No
+2025-09-17,Hydra Cream,1237,53,49,1241,0,No
+2025-09-17,Eye Repair Serum,373,20,15,378,0,No
+2025-09-18,Vitamin C Serum,331,40,46,325,0,No
+2025-09-18,Hydra Cream,1241,51,41,1251,0,No
+2025-09-18,Eye Repair Serum,378,18,14,382,0,No
+2025-09-19,Vitamin C Serum,325,45,38,332,0,No
+2025-09-19,Hydra Cream,1251,56,35,1272,0,No
+2025-09-19,Eye Repair Serum,382,19,18,383,0,No
+2025-09-20,Vitamin C Serum,332,38,37,333,0,No
+2025-09-20,Hydra Cream,1272,56,34,1294,0,No
+2025-09-20,Eye Repair Serum,383,18,15,386,0,No
+2025-09-21,Vitamin C Serum,333,44,42,335,0,No
+2025-09-21,Hydra Cream,1294,54,50,1298,0,No
+2025-09-21,Eye Repair Serum,386,18,20,384,0,No
+2025-09-22,Vitamin C Serum,335,46,50,331,0,No
+2025-09-22,Hydra Cream,1298,50,49,1299,0,No
+2025-09-22,Eye Repair Serum,384,17,19,382,0,No
+2025-09-23,Vitamin C Serum,331,42,50,323,0,No
+2025-09-23,Hydra Cream,1299,22,35,1286,0,No
+2025-09-23,Eye Repair Serum,382,17,16,383,0,No
+2025-09-24,Vitamin C Serum,323,42,37,328,0,No
+2025-09-24,Hydra Cream,1286,51,46,1291,0,No
+2025-09-24,Eye Repair Serum,383,20,15,388,0,No
+2025-09-25,Vitamin C Serum,328,40,42,326,0,No
+2025-09-25,Hydra Cream,1291,56,47,1300,0,No
+2025-09-25,Eye Repair Serum,388,17,14,391,0,No
+2025-09-26,Vitamin C Serum,326,46,43,329,0,No
+2025-09-26,Hydra Cream,1300,53,46,1307,0,No
+2025-09-26,Eye Repair Serum,391,19,20,390,0,No
+2025-09-27,Vitamin C Serum,329,39,37,331,0,No
+2025-09-27,Hydra Cream,1307,56,37,1326,0,No
+2025-09-27,Eye Repair Serum,390,20,18,392,0,No
+2025-09-28,Vitamin C Serum,331,41,36,336,0,No
+2025-09-28,Hydra Cream,1326,49,46,1329,0,No
+2025-09-28,Eye Repair Serum,392,17,19,390,0,No
+2025-09-29,Vitamin C Serum,336,43,45,334,0,No
+2025-09-29,Hydra Cream,1329,53,35,1347,0,No
+2025-09-29,Eye Repair Serum,390,19,14,395,0,No
+2025-09-30,Vitamin C Serum,334,45,42,337,0,No
+2025-09-30,Hydra Cream,1347,53,42,1358,0,No
+2025-09-30,Eye Repair Serum,395,17,15,397,0,No
+2025-10-01,Vitamin C Serum,337,45,56,326,0,No
+2025-10-01,Hydra Cream,1358,50,53,1355,0,No
+2025-10-01,Eye Repair Serum,397,20,19,398,0,No
+2025-10-02,Vitamin C Serum,326,42,55,313,0,No
+2025-10-02,Hydra Cream,1355,55,64,1346,0,No
+2025-10-02,Eye Repair Serum,398,17,19,396,0,No
+2025-10-03,Vitamin C Serum,313,44,43,314,0,No
+2025-10-03,Hydra Cream,1346,48,63,1331,0,No
+2025-10-03,Eye Repair Serum,396,16,23,389,0,No
+2025-10-04,Vitamin C Serum,314,24,56,282,0,No
+2025-10-04,Hydra Cream,1331,48,64,1315,0,No
+2025-10-04,Eye Repair Serum,389,18,22,385,0,No
+2025-10-05,Vitamin C Serum,282,44,46,280,0,No
+2025-10-05,Hydra Cream,1315,52,49,1318,0,No
+2025-10-05,Eye Repair Serum,385,16,17,384,0,No
+2025-10-06,Vitamin C Serum,280,39,40,279,0,No
+2025-10-06,Hydra Cream,1318,47,44,1321,0,No
+2025-10-06,Eye Repair Serum,384,20,22,382,0,No
+2025-10-07,Vitamin C Serum,279,40,57,262,0,No
+2025-10-07,Hydra Cream,1321,50,60,1311,0,No
+2025-10-07,Eye Repair Serum,382,18,19,381,0,No
+2025-10-08,Vitamin C Serum,262,29,58,233,0,No
+2025-10-08,Hydra Cream,1311,56,63,1304,0,No
+2025-10-08,Eye Repair Serum,381,16,21,376,0,No
+2025-10-09,Vitamin C Serum,233,21,42,212,0,No
+2025-10-09,Hydra Cream,1304,48,63,1289,0,No
+2025-10-09,Eye Repair Serum,376,17,18,375,0,No
+2025-10-10,Vitamin C Serum,212,39,52,199,0,No
+2025-10-10,Hydra Cream,1289,55,62,1282,0,No
+2025-10-10,Eye Repair Serum,375,18,21,372,0,No
+2025-10-11,Vitamin C Serum,199,40,44,195,0,No
+2025-10-11,Hydra Cream,1282,51,58,1275,0,No
+2025-10-11,Eye Repair Serum,372,17,23,366,0,No
+2025-10-12,Vitamin C Serum,195,38,54,179,0,No
+2025-10-12,Hydra Cream,1275,46,53,1268,0,No
+2025-10-12,Eye Repair Serum,366,19,22,363,0,No
+2025-10-13,Vitamin C Serum,179,40,50,169,0,No
+2025-10-13,Hydra Cream,1268,56,45,1279,0,No
+2025-10-13,Eye Repair Serum,363,18,23,358,0,No
+2025-10-14,Vitamin C Serum,169,43,47,165,0,No
+2025-10-14,Hydra Cream,1279,24,58,1245,0,No
+2025-10-14,Eye Repair Serum,358,20,17,361,0,No
+2025-10-15,Vitamin C Serum,165,40,41,164,0,No
+2025-10-15,Hydra Cream,1245,53,50,1248,0,No
+2025-10-15,Eye Repair Serum,361,17,16,362,0,No
+2025-10-16,Vitamin C Serum,164,42,39,167,0,No
+2025-10-16,Hydra Cream,1248,54,52,1250,0,No
+2025-10-16,Eye Repair Serum,362,19,21,360,0,No
+2025-10-17,Vitamin C Serum,167,42,45,164,0,No
+2025-10-17,Hydra Cream,1250,49,44,1255,0,No
+2025-10-17,Eye Repair Serum,360,17,20,357,0,No
+2025-10-18,Vitamin C Serum,164,40,51,153,0,No
+2025-10-18,Hydra Cream,1255,46,43,1258,0,No
+2025-10-18,Eye Repair Serum,357,19,21,355,0,No
+2025-10-19,Vitamin C Serum,153,40,43,150,0,No
+2025-10-19,Hydra Cream,1258,52,46,1264,0,No
+2025-10-19,Eye Repair Serum,355,18,17,356,0,No
+2025-10-20,Vitamin C Serum,150,40,57,133,0,No
+2025-10-20,Hydra Cream,1264,47,59,1252,0,No
+2025-10-20,Eye Repair Serum,356,18,18,356,0,No
+2025-10-21,Vitamin C Serum,133,21,46,108,0,No
+2025-10-21,Hydra Cream,1252,56,47,1261,0,No
+2025-10-21,Eye Repair Serum,356,17,21,352,0,No
+2025-10-22,Vitamin C Serum,108,41,49,100,0,No
+2025-10-22,Hydra Cream,1261,55,61,1255,0,No
+2025-10-22,Eye Repair Serum,352,16,16,352,0,No
+2025-10-23,Vitamin C Serum,100,44,56,88,0,No
+2025-10-23,Hydra Cream,1255,49,64,1240,0,No
+2025-10-23,Eye Repair Serum,352,16,21,347,0,No
+2025-10-24,Vitamin C Serum,88,38,82,44,0,No
+2025-10-24,Hydra Cream,1240,24,57,1207,0,No
+2025-10-24,Eye Repair Serum,347,16,32,331,0,No
+2025-10-25,Vitamin C Serum,44,42,86,0,11,Yes
+2025-10-25,Hydra Cream,1207,48,82,1173,0,No
+2025-10-25,Eye Repair Serum,331,19,34,316,0,No
+2025-10-26,Vitamin C Serum,0,43,43,0,43,Yes
+2025-10-26,Hydra Cream,1173,54,77,1150,0,No
+2025-10-26,Eye Repair Serum,316,17,28,305,0,No
+2025-10-27,Vitamin C Serum,0,42,42,0,47,Yes
+2025-10-27,Hydra Cream,1150,51,74,1127,0,No
+2025-10-27,Eye Repair Serum,305,16,33,288,0,No
+2025-10-28,Vitamin C Serum,0,38,38,0,39,Yes
+2025-10-28,Hydra Cream,1127,52,83,1096,0,No
+2025-10-28,Eye Repair Serum,288,18,34,272,0,No
+2025-10-29,Vitamin C Serum,0,42,42,0,61,Yes
+2025-10-29,Hydra Cream,1096,49,58,1087,0,No
+2025-10-29,Eye Repair Serum,272,19,26,265,0,No
+2025-10-30,Vitamin C Serum,0,44,44,0,26,Yes
+2025-10-30,Hydra Cream,1087,48,74,1061,0,No
+2025-10-30,Eye Repair Serum,265,17,37,245,0,No
+2025-10-31,Vitamin C Serum,0,38,38,0,57,Yes
+2025-10-31,Hydra Cream,1061,53,59,1055,0,No
+2025-10-31,Eye Repair Serum,245,16,30,231,0,No
+2025-11-01,Vitamin C Serum,0,41,41,0,63,Yes
+2025-11-01,Hydra Cream,1055,55,89,1021,0,No
+2025-11-01,Eye Repair Serum,231,16,36,211,0,No
+2025-11-02,Vitamin C Serum,0,45,45,0,53,Yes
+2025-11-02,Hydra Cream,1021,52,64,1009,0,No
+2025-11-02,Eye Repair Serum,211,16,41,186,0,No
+2025-11-03,Vitamin C Serum,0,42,42,0,79,Yes
+2025-11-03,Hydra Cream,1009,50,81,978,0,No
+2025-11-03,Eye Repair Serum,186,17,29,174,0,No
+2025-11-04,Vitamin C Serum,0,42,42,0,68,Yes
+2025-11-04,Hydra Cream,978,49,74,953,0,No
+2025-11-04,Eye Repair Serum,174,19,34,159,0,No
+2025-11-05,Vitamin C Serum,0,46,46,0,76,Yes
+2025-11-05,Hydra Cream,953,49,76,926,0,No
+2025-11-05,Eye Repair Serum,159,19,39,139,0,No
+2025-11-06,Vitamin C Serum,0,43,43,0,43,Yes
+2025-11-06,Hydra Cream,926,51,91,886,0,No
+2025-11-06,Eye Repair Serum,139,16,32,123,0,No
+2025-11-07,Vitamin C Serum,0,41,41,0,17,Yes
+2025-11-07,Hydra Cream,886,55,68,873,0,No
+2025-11-07,Eye Repair Serum,123,19,18,124,0,No
+2025-11-08,Vitamin C Serum,0,43,43,0,24,Yes
+2025-11-08,Hydra Cream,873,30,60,843,0,No
+2025-11-08,Eye Repair Serum,124,18,21,121,0,No
+2025-11-09,Vitamin C Serum,0,46,46,0,9,Yes
+2025-11-09,Hydra Cream,843,50,58,835,0,No
+2025-11-09,Eye Repair Serum,121,20,21,120,0,No
+2025-11-10,Vitamin C Serum,0,41,41,0,22,Yes
+2025-11-10,Hydra Cream,835,46,57,824,0,No
+2025-11-10,Eye Repair Serum,120,16,23,113,0,No
+2025-11-11,Vitamin C Serum,0,43,43,0,23,Yes
+2025-11-11,Hydra Cream,824,52,56,820,0,No
+2025-11-11,Eye Repair Serum,113,17,25,105,0,No
+2025-11-12,Vitamin C Serum,0,43,43,0,16,Yes
+2025-11-12,Hydra Cream,820,56,48,828,0,No
+2025-11-12,Eye Repair Serum,105,20,24,101,0,No
+2025-11-13,Vitamin C Serum,0,40,40,0,25,Yes
+2025-11-13,Hydra Cream,828,51,71,808,0,No
+2025-11-13,Eye Repair Serum,101,19,22,98,0,No
+2025-11-14,Vitamin C Serum,0,39,39,0,27,Yes
+2025-11-14,Hydra Cream,808,54,67,795,0,No
+2025-11-14,Eye Repair Serum,98,18,18,98,0,No
+2025-11-15,Vitamin C Serum,0,39,39,0,11,Yes
+2025-11-15,Hydra Cream,795,53,62,786,0,No
+2025-11-15,Eye Repair Serum,98,18,22,94,0,No
+2025-11-16,Vitamin C Serum,0,43,43,0,16,Yes
+2025-11-16,Hydra Cream,786,48,56,778,0,No
+2025-11-16,Eye Repair Serum,94,10,23,81,0,No
+2025-11-17,Vitamin C Serum,0,28,28,0,29,Yes
+2025-11-17,Hydra Cream,778,48,55,771,0,No
+2025-11-17,Eye Repair Serum,81,19,22,78,0,No
+2025-11-18,Vitamin C Serum,0,45,45,0,22,Yes
+2025-11-18,Hydra Cream,771,55,67,759,0,No
+2025-11-18,Eye Repair Serum,78,18,19,77,0,No
+2025-11-19,Vitamin C Serum,0,43,43,0,19,Yes
+2025-11-19,Hydra Cream,759,49,61,747,0,No
+2025-11-19,Eye Repair Serum,77,19,18,78,0,No
+2025-11-20,Vitamin C Serum,0,43,43,0,15,Yes
+2025-11-20,Hydra Cream,747,48,56,739,0,No
+2025-11-20,Eye Repair Serum,78,18,21,75,0,No
+2025-11-21,Vitamin C Serum,0,28,28,0,23,Yes
+2025-11-21,Hydra Cream,739,55,69,725,0,No
+2025-11-21,Eye Repair Serum,75,18,26,67,0,No
+2025-11-22,Vitamin C Serum,0,39,39,0,16,Yes
+2025-11-22,Hydra Cream,725,49,63,711,0,No
+2025-11-22,Eye Repair Serum,67,18,25,60,0,No
+2025-11-23,Vitamin C Serum,0,38,38,0,23,Yes
+2025-11-23,Hydra Cream,711,50,67,694,0,No
+2025-11-23,Eye Repair Serum,60,19,19,60,0,No
+2025-11-24,Vitamin C Serum,0,39,39,0,10,Yes
+2025-11-24,Hydra Cream,694,55,69,680,0,No
+2025-11-24,Eye Repair Serum,60,19,22,57,0,No
+2025-11-25,Vitamin C Serum,0,41,41,0,9,Yes
+2025-11-25,Hydra Cream,680,51,53,678,0,No
+2025-11-25,Eye Repair Serum,57,17,18,56,0,No
+2025-11-26,Vitamin C Serum,0,46,46,0,23,Yes
+2025-11-26,Hydra Cream,678,48,56,670,0,No
+2025-11-26,Eye Repair Serum,56,17,25,48,0,No
+2025-11-27,Vitamin C Serum,0,44,44,0,17,Yes
+2025-11-27,Hydra Cream,670,56,59,667,0,No
+2025-11-27,Eye Repair Serum,48,18,19,47,0,No
+2025-11-28,Vitamin C Serum,0,38,38,0,15,Yes
+2025-11-28,Hydra Cream,667,53,60,660,0,No
+2025-11-28,Eye Repair Serum,47,16,20,43,0,No
+2025-11-29,Vitamin C Serum,0,46,46,0,21,Yes
+2025-11-29,Hydra Cream,660,54,55,659,0,No
+2025-11-29,Eye Repair Serum,43,18,24,37,0,No
+2025-11-30,Vitamin C Serum,0,45,45,0,12,Yes
+2025-11-30,Hydra Cream,659,27,70,616,0,No
+2025-11-30,Eye Repair Serum,37,17,21,33,0,No
+2025-12-01,Vitamin C Serum,0,38,38,0,39,Yes
+2025-12-01,Hydra Cream,616,55,127,544,0,No
+2025-12-01,Eye Repair Serum,33,16,20,29,0,No
+2025-12-02,Vitamin C Serum,0,42,42,0,30,Yes
+2025-12-02,Hydra Cream,544,55,137,462,0,No
+2025-12-02,Eye Repair Serum,29,8,20,17,0,No
+2025-12-03,Vitamin C Serum,0,39,39,0,25,Yes
+2025-12-03,Hydra Cream,462,30,126,366,0,No
+2025-12-03,Eye Repair Serum,17,16,21,12,0,No
+2025-12-04,Vitamin C Serum,0,46,46,0,28,Yes
+2025-12-04,Hydra Cream,366,47,141,272,0,No
+2025-12-04,Eye Repair Serum,12,16,28,0,1,Yes
+2025-12-05,Vitamin C Serum,0,45,45,0,14,Yes
+2025-12-05,Hydra Cream,272,49,139,182,0,No
+2025-12-05,Eye Repair Serum,0,19,19,0,2,Yes
+2025-12-06,Vitamin C Serum,0,39,39,0,26,Yes
+2025-12-06,Hydra Cream,182,53,142,93,0,No
+2025-12-06,Eye Repair Serum,0,18,18,0,7,Yes
+2025-12-07,Vitamin C Serum,0,38,38,0,25,Yes
+2025-12-07,Hydra Cream,93,51,132,12,0,No
+2025-12-07,Eye Repair Serum,0,16,16,0,8,Yes
+2025-12-08,Vitamin C Serum,0,44,44,0,27,Yes
+2025-12-08,Hydra Cream,12,51,63,0,67,Yes
+2025-12-08,Eye Repair Serum,0,16,16,0,8,Yes
+2025-12-09,Vitamin C Serum,0,46,46,0,22,Yes
+2025-12-09,Hydra Cream,0,46,46,0,74,Yes
+2025-12-09,Eye Repair Serum,0,18,18,0,6,Yes
+2025-12-10,Vitamin C Serum,0,43,43,0,34,Yes
+2025-12-10,Hydra Cream,0,50,50,0,60,Yes
+2025-12-10,Eye Repair Serum,0,16,16,0,12,Yes
+2025-12-11,Vitamin C Serum,0,28,28,0,29,Yes
+2025-12-11,Hydra Cream,0,48,48,0,65,Yes
+2025-12-11,Eye Repair Serum,0,18,18,0,8,Yes
+2025-12-12,Vitamin C Serum,0,42,42,0,34,Yes
+2025-12-12,Hydra Cream,0,46,46,0,85,Yes
+2025-12-12,Eye Repair Serum,0,18,18,0,2,Yes
+2025-12-13,Vitamin C Serum,0,40,40,0,22,Yes
+2025-12-13,Hydra Cream,0,55,55,0,101,Yes
+2025-12-13,Eye Repair Serum,0,18,18,0,3,Yes
+2025-12-14,Vitamin C Serum,0,45,45,0,29,Yes
+2025-12-14,Hydra Cream,0,50,50,0,82,Yes
+2025-12-14,Eye Repair Serum,0,20,20,0,3,Yes
+2025-12-15,Vitamin C Serum,0,41,41,0,18,Yes
+2025-12-15,Hydra Cream,0,47,47,0,89,Yes
+2025-12-15,Eye Repair Serum,0,20,20,0,2,Yes
+2025-12-16,Vitamin C Serum,0,40,40,0,18,Yes
+2025-12-16,Hydra Cream,0,52,52,0,105,Yes
+2025-12-16,Eye Repair Serum,0,19,19,0,6,Yes
+2025-12-17,Vitamin C Serum,0,41,41,0,14,Yes
+2025-12-17,Hydra Cream,0,52,52,0,70,Yes
+2025-12-17,Eye Repair Serum,0,19,19,0,2,Yes
+2025-12-18,Vitamin C Serum,0,39,39,0,21,Yes
+2025-12-18,Hydra Cream,0,53,53,0,58,Yes
+2025-12-18,Eye Repair Serum,0,18,18,0,11,Yes
+2025-12-19,Vitamin C Serum,0,44,44,0,9,Yes
+2025-12-19,Hydra Cream,0,52,52,0,79,Yes
+2025-12-19,Eye Repair Serum,0,10,10,0,10,Yes
+2025-12-20,Vitamin C Serum,0,46,46,0,23,Yes
+2025-12-20,Hydra Cream,0,56,56,0,79,Yes
+2025-12-20,Eye Repair Serum,0,17,17,0,9,Yes
+2025-12-21,Vitamin C Serum,0,39,39,0,38,Yes
+2025-12-21,Hydra Cream,0,46,46,0,107,Yes
+2025-12-21,Eye Repair Serum,0,19,19,0,4,Yes
+2025-12-22,Vitamin C Serum,0,21,21,0,53,Yes
+2025-12-22,Hydra Cream,0,49,49,0,90,Yes
+2025-12-22,Eye Repair Serum,0,18,18,0,11,Yes
+2025-12-23,Vitamin C Serum,0,46,46,0,30,Yes
+2025-12-23,Hydra Cream,0,46,46,0,62,Yes
+2025-12-23,Eye Repair Serum,0,9,9,0,11,Yes
+2025-12-24,Vitamin C Serum,0,41,41,0,16,Yes
+2025-12-24,Hydra Cream,0,49,49,0,105,Yes
+2025-12-24,Eye Repair Serum,0,16,16,0,7,Yes
+2025-12-25,Vitamin C Serum,0,38,38,0,34,Yes
+2025-12-25,Hydra Cream,0,46,46,0,92,Yes
+2025-12-25,Eye Repair Serum,0,20,20,0,3,Yes
+2025-12-26,Vitamin C Serum,0,40,40,0,34,Yes
+2025-12-26,Hydra Cream,0,55,55,0,54,Yes
+2025-12-26,Eye Repair Serum,0,16,16,0,5,Yes
+2025-12-27,Vitamin C Serum,0,45,45,0,27,Yes
+2025-12-27,Hydra Cream,0,50,50,0,64,Yes
+2025-12-27,Eye Repair Serum,0,20,19,1,0,No
+2025-12-28,Vitamin C Serum,0,43,43,0,11,Yes
+2025-12-28,Hydra Cream,0,55,55,0,63,Yes
+2025-12-28,Eye Repair Serum,1,16,17,0,6,Yes
+2025-12-29,Vitamin C Serum,0,46,46,0,26,Yes
+2025-12-29,Hydra Cream,0,55,55,0,66,Yes
+2025-12-29,Eye Repair Serum,0,19,19,0,6,Yes
+2025-12-30,Vitamin C Serum,0,43,43,0,23,Yes
+2025-12-30,Hydra Cream,0,50,50,0,101,Yes
+2025-12-30,Eye Repair Serum,0,18,18,0,8,Yes
+2025-12-31,Vitamin C Serum,0,42,42,0,28,Yes
+2025-12-31,Hydra Cream,0,54,54,0,14,Yes
+2025-12-31,Eye Repair Serum,0,20,20,0,6,Yes
+2026-01-01,Vitamin C Serum,0,22,22,0,94,Yes
+2026-01-01,Hydra Cream,0,18,18,0,136,Yes
+2026-01-01,Eye Repair Serum,0,8,8,0,34,Yes
+2026-01-02,Vitamin C Serum,0,23,23,0,78,Yes
+2026-01-02,Hydra Cream,0,26,26,0,132,Yes
+2026-01-02,Eye Repair Serum,0,8,8,0,37,Yes
+2026-01-03,Vitamin C Serum,0,21,21,0,76,Yes
+2026-01-03,Hydra Cream,0,24,24,0,131,Yes
+2026-01-03,Eye Repair Serum,0,4,4,0,44,Yes
+2026-01-04,Vitamin C Serum,0,23,23,0,72,Yes
+2026-01-04,Hydra Cream,0,28,28,0,106,Yes
+2026-01-04,Eye Repair Serum,0,9,9,0,36,Yes
+2026-01-05,Vitamin C Serum,0,19,19,0,117,Yes
+2026-01-05,Hydra Cream,0,25,25,0,134,Yes
+2026-01-05,Eye Repair Serum,0,10,10,0,37,Yes
+2026-01-06,Vitamin C Serum,0,22,22,0,77,Yes
+2026-01-06,Hydra Cream,0,23,23,0,159,Yes
+2026-01-06,Eye Repair Serum,0,10,10,0,48,Yes
+2026-01-07,Vitamin C Serum,0,22,22,0,90,Yes
+2026-01-07,Hydra Cream,0,11,11,0,154,Yes
+2026-01-07,Eye Repair Serum,0,8,8,0,44,Yes
+2026-01-08,Vitamin C Serum,0,19,19,0,72,Yes
+2026-01-08,Hydra Cream,0,24,24,0,129,Yes
+2026-01-08,Eye Repair Serum,0,9,9,0,33,Yes
+2026-01-09,Vitamin C Serum,0,21,21,0,68,Yes
+2026-01-09,Hydra Cream,0,28,28,0,151,Yes
+2026-01-09,Eye Repair Serum,0,10,10,0,29,Yes
+2026-01-10,Vitamin C Serum,0,19,19,0,51,Yes
+2026-01-10,Hydra Cream,0,27,27,0,159,Yes
+2026-01-10,Eye Repair Serum,0,8,8,0,34,Yes
+2026-01-11,Vitamin C Serum,0,23,23,0,54,Yes
+2026-01-11,Hydra Cream,0,12,12,0,143,Yes
+2026-01-11,Eye Repair Serum,0,9,9,0,28,Yes
+2026-01-12,Vitamin C Serum,0,19,19,0,57,Yes
+2026-01-12,Hydra Cream,0,28,28,0,132,Yes
+2026-01-12,Eye Repair Serum,0,10,10,0,27,Yes
+2026-01-13,Vitamin C Serum,0,20,20,0,64,Yes
+2026-01-13,Hydra Cream,0,28,28,0,118,Yes
+2026-01-13,Eye Repair Serum,0,10,10,0,26,Yes
+2026-01-14,Vitamin C Serum,0,22,22,0,66,Yes
+2026-01-14,Hydra Cream,0,15,15,0,155,Yes
+2026-01-14,Eye Repair Serum,0,8,8,0,32,Yes
